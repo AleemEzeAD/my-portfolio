@@ -1,0 +1,399 @@
+/* Global css with reset css */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+blockquote,
+pre,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+/* =====  01. Reset  ====== */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    background: #09203f;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+}
+
+button:focus {
+    outline: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+label {
+    font-weight: normal;
+}
+
+iframe {
+    width: 100%;
+}
+
+/* =====  End of 01. Reset  ====== */
+/* ===== 02. Global Style ===== */
+h1 {
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 72px;
+    font-family: "Playfair Display", serif;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 51px;
+    font-family: "Playfair Display", serif;
+
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    font-family: "Playfair Display", serif;
+}
+
+h4 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    font-family: "Playfair Display", serif;
+}
+
+h5 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    font-family: "Playfair Display", serif;
+}
+
+h6 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: "Playfair Display", serif;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 10px 35px;
+    font-family: "Merriweather", serif;
+}
+
+a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    font-family: "Merriweather", serif;
+    text-decoration: none;
+}
+
+/* input area sugguseation color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s;
+}
+
+span {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hover1 {
+    display: block;
+    padding: 10px 20px;
+    border: 'none';
+    background: #FFA500;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+}
+
+.hover1 {
+    display: block;
+    padding: 10px 20px;
+    border: 'none';
+    background: #;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* ===== Global css with reset css ====== */
+/* =====  Header Section Started  ====== */
+header {
+    background-color: #1c2144;
+    padding: 10px 0px;
+}
+
+header .DesktopLogo img {
+    width: 120px;
+}
+
+header .nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+header .nav li a {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+
+header .nav li a:hover {
+    color: #FFA500;
+}
+
+header .nav-link:focus {
+    color: #ffffff;
+}
+
+/* Sidebar styling started here */
+
+header .sidebar {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    height: 100vh;
+    background-color: #1c2144;
+    padding: 30px 20px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    transition: left 0.4s ease;
+    z-index: 5;
+    overflow-y: auto;
+}
+
+header .sidebar.open {
+    left: 0;
+}
+
+header .menu-toggle {
+    width: 42px;
+    height: 40px;
+    padding: 0px;
+    background: #FFA500;
+    color: #fff;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    border-radius: 6px;
+    cursor: pointer;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+header .close-btn {
+    background: #FFA500;
+    color: #fff;
+    border: none;
+    width: 40px;
+    height: 36px;
+    font-size: 22px;
+    padding: 0px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin-top: 50px;
+}
+
+header .sidebar-link {
+    display: block;
+    padding: 10px 0;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+header .sidebar-link.active,
+header .sidebar-link:hover {
+    color: #FFA500;
+    border-color: #FFA500;
+}
+
+header aside .side_items {
+    display: inline-block;
+    width: 100%;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+header aside .side_items.active,
+header aside .side_items:hover {
+    color: #FFA500;
+    border-color: #FFA500;
+}
+
+header .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+}
+
+/* =====  Header Section Ended  ====== */

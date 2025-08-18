@@ -1,0 +1,187 @@
+/* =====  Global Styling Started  ====== */
+@media screen and (max-width: 991px) {
+    .container {
+        max-width: 959px;
+    }
+
+    h1 {
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 55px;
+    }
+
+    h2 {
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 40px;
+    }
+
+    h3 {
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 32px;
+    }
+
+    h4 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 26px;
+    }
+
+    h5 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    h6 {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    button {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        padding: 10px 35px;
+    }
+
+    a {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 40px;
+    }
+
+    h2 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    h4 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    h5 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    h6 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    button {
+        font-size: 16px;
+        line-height: 22px;
+        padding: 10px 35px;
+    }
+
+    a {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+}
+
+/* =====  Global Styling Ended  ====== */
+/* =====  Header Section Started  ====== */
+
+@media screen and (max-width: 991px) {
+    header .menu-toggle {
+        margin-inline-start: 15px;
+    }
+
+    header .DesktopLogo {
+        flex-grow: 1;
+    }
+
+    header .sidebar-logo img {
+        width: 150px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    header .DesktopLogo img {
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    header .sidebar {
+        width: 260px;
+    }
+
+    header .DesktopLogo img {
+        width: 120px;
+    }
+
+    header .Open_Search {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    header .menu-toggle {
+        width: 30px;
+        height: 30px;
+        font-size: 18px;
+    }
+
+    header .close-btn {
+        width: 30px;
+        height: 30px;
+        font-size: 18px;
+    }
+
+    header .search-modal {
+        min-width: unset;
+        width: 100%;
+        flex-direction: column-reverse;
+        padding: 15px 15px 15px 15px;
+    }
+
+    header .search-input {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    header .search-btn {
+        width: 100%;
+    }
+
+    header .close-search {
+        display: none;
+    }
+
+}
+
+/* =====  Header Section Ended  ====== */
