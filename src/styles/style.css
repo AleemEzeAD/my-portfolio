@@ -104,7 +104,8 @@ section {
 
 body {
     line-height: 1;
-    background: #09203f;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    ;
 }
 
 ol,
@@ -237,7 +238,7 @@ span {
     display: block;
     padding: 10px 20px;
     border: 'none';
-    background: #FFA500;
+    background: #3F0F4D;
     color: #ffffff;
     font-size: 16px;
     line-height: 22px;
@@ -250,11 +251,24 @@ span {
     display: block;
     padding: 10px 20px;
     border: 'none';
-    background: #;
+    background: #3F0F4D;
     color: #ffffff;
     font-size: 16px;
     line-height: 22px;
-    font-weight: 500;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+}
+
+.hover2 {
+    display: block;
+    padding: 10px 20px;
+    border: 'none';
+    background: #3F0F4D;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
     border-radius: 6px;
     transition: all 0.3s ease-in-out;
 }
@@ -262,7 +276,7 @@ span {
 /* ===== Global css with reset css ====== */
 /* =====  Header Section Started  ====== */
 header {
-    background-color: #1c2144;
+    background-color: #002d52;
     padding: 10px 0px;
 }
 
@@ -397,3 +411,278 @@ header .overlay {
 }
 
 /* =====  Header Section Ended  ====== */
+
+/* ========= Hero Start ========= */
+.Hero {
+    padding: 70px 0;
+    height: 89svh;
+    position: relative;
+}
+
+.Hero h2,
+.Hero h1 {
+    color: #ffffff;
+}
+
+.Hero figure {
+    width: 100%;
+    position: relative;
+    animation: jump 2s ease-in-out infinite;
+}
+
+.Hero figure img {
+    width: 100%;
+}
+
+.Hero .animated-text {
+    font-family: 'Courier', monospace;
+    display: inline-block;
+}
+
+.Hero .wave {
+    display: inline-block;
+    animation: wave-animation 2s infinite;
+    transform-origin: 70% 70%;
+    font-size: 30px;
+}
+
+.wave {
+    display: inline-block;
+    animation: wave-animation 2s infinite;
+    transform-origin: 70% 70%;
+    font-size: 30px;
+}
+
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(14deg);
+    }
+
+    20% {
+        transform: rotate(-8deg);
+    }
+
+    30% {
+        transform: rotate(14deg);
+    }
+
+    40% {
+        transform: rotate(-4deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    60% {
+        transform: rotate(0deg);
+    }
+}
+
+/* End waving */
+
+@keyframes jump {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.Hero .floating-boxes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.Hero .box {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transition: transform 2s ease, background 2s ease, box-shadow 2s ease;
+}
+
+.Hero .box:hover {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+
+.Hero .Hero-box:hover::before {
+    opacity: 1;
+    animation: shine 2s infinite;
+}
+
+@keyframes shine {
+    0% {
+        transform: rotate(30deg) translate(-10%, -10%);
+    }
+
+    50% {
+        transform: rotate(30deg) translate(10%, 10%);
+    }
+
+    100% {
+        transform: rotate(30deg) translate(-10%, -10%);
+    }
+}
+
+/* ========= Hero section Ended ========= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Login {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.Login .floating-boxes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.Login .box {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.Login .box:hover {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.Login .login-box {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    border: none;
+    z-index: 1;
+}
+
+.Login .login-box::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(to bottom right,
+            rgba(255, 255, 255, 0.1),
+            rgba(255, 255, 255, 0));
+    transform: rotate(30deg);
+    pointer-events: none;
+    transition: all 0.5s ease;
+    opacity: 0;
+    z-index: -1;
+}
+
+.Login .login-box:hover::before {
+    opacity: 1;
+    animation: shine 2s infinite;
+}
+
+@keyframes shine {
+    0% {
+        transform: rotate(30deg) translate(-10%, -10%);
+    }
+
+    50% {
+        transform: rotate(30deg) translate(10%, 10%);
+    }
+
+    100% {
+        transform: rotate(30deg) translate(-10%, -10%);
+    }
+}
+
+.Login .login-box h2 {
+    color: #fff;
+}
+
+.Login .custom-input {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-radius: 8px !important;
+    color: #fff !important;
+    padding: 12px 15px !important;
+    transition: all 0.3s ease !important;
+}
+
+.Login .custom-input:focus {
+    background: rgba(76, 201, 240, 0.1) !important;
+    border-color: #4cc9f0 !important;
+    box-shadow: 0 0 0 0.25rem rgba(76, 201, 240, 0.25) !important;
+    color: #fff !important;
+}
+
+.Login .options-link {
+    color: #4cc9f0;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.Login .options-link:hover {
+    color: #fff !important;
+}
+
+.Login .login-btn {
+    background: linear-gradient(45deg, #4cc9f0, #4895ef) !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 12px !important;
+    font-weight: bold !important;
+    transition: all 0.3s ease !important;
+}
+
+.Login .login-btn:hover {
+    transform: translateY(-3px) !important;
+    box-shadow: 0 10px 20px rgba(76, 201, 240, 0.3) !important;
+}
+
+/* ===== Ended Login Section ===== */
