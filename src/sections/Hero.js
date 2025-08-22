@@ -64,26 +64,26 @@ const AnimatedHero = () => {
             <Container className="d-flex justify-content-center align-items-center">
                 <Row className="w-100 justify-content-center">
                     <Col md={8} lg={6}>
-                        <div class=" h-100 d-flex flex-column gap-3 justify-content-center">
-                            <div class="d-flex align-items-center">
-                                <h1 class="animated-text">
+                        <div className=" h-100 d-flex flex-column gap-3 justify-content-center">
+                            <div className="d-flex align-items-center">
+                                <h1 className="animated-text">
                                     Hi
                                 </h1>
-                                <span class="wave">👋</span>
+                                <span className="wave">👋</span>
                             </div>
                             <h1>
                                 This is <strong>Aleem Abbas</strong>
                                 Professional Web Developer
                             </h1>
 
-                            <div class="d-flex align-items-center w-100 mt-md-3">
-                                <a href="assets/images/Resume/Aleem_Resume.pdf" target="_blank" class="join-btn hover1"
+                            <div className="d-flex align-items-center w-100 mt-md-3">
+                                <a href="assets/images/Resume/Aleem_Resume.pdf" target="_blank" className="join-btn hover1"
                                     type="button">View My Resume </a>
                             </div>
                         </div>
                     </Col>
                     <Col md={8} lg={6}>
-                        <div class="d-flex h-100 align-items-center justify-content-center">
+                        <div className="d-flex h-100 align-items-center justify-content-center">
                             <figure>
                                 <img src={HeroImage} alt="hero" className="hero-img" />
                             </figure>
