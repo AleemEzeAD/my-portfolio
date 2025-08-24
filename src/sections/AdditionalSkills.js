@@ -107,15 +107,17 @@ const AdditionalSkills = () => {
         <section ref={skillsRef} className="AdditionalSkills">
             <Container>
                 <div className="d-flex flex-column gap-2 content">
-                    <h2>A Sampple ShowCase Skills Animated Skills Section</h2>
+                    <h2>My Professional Services</h2>
                     <p>
-                        I’ve mastered a wide range of tools and technologies that power
-                        modern digital experiences. From crafting pixel-perfect user
-                        interfaces to building scalable web solutions, my skills showcase
-                        the perfect mix of design sense, coding expertise, and
-                        problem-solving mindset.
+                        I offer a wide range of services tailored to bring ideas to life and help
+                        businesses succeed online. From developing responsive and user-friendly
+                        websites to creating scalable digital solutions, my services combine
+                        creativity, technical expertise, and a problem-solving mindset to deliver
+                        results that truly make an impact.
                     </p>
                 </div>
+
+
                 <Row className="g-4 justify-content-center">
                     {skills.map((skill, index) => (
                         <Col
@@ -125,12 +127,14 @@ const AdditionalSkills = () => {
                             md={2}
                             className="skill-item text-center"
                         >
-                            <img
-                                src={skill.src}
-                                alt={skill.alt}
-                                className="img-fluid mb-2 skill-icon"
-                            />
-                            <p className="fw-medium">{skill.alt}</p>
+                            <div className="d-flex flex-column boxes">
+                                <img
+                                    src={skill.src}
+                                    alt={skill.alt}
+                                    className="img-fluid mb-2 skill-icon"
+                                />
+                                <p className="fw-medium">{skill.alt}</p>
+                            </div>
                         </Col>
                     ))}
                 </Row>

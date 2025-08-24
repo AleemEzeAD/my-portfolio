@@ -5,8 +5,15 @@ import Bottom from './sections/Bottom';
 import Overview from './sections/Overview';
 import Skills from './sections/Skills';
 import AdditionalSkills from './sections/AdditionalSkills';
-// import Login from './pages/Login';
+import Experience from './sections/Experience';
+import Projects from './sections/Projects';
+import MultiProj from './sections/MultiProj';
+import Education from './sections/Education';
+import Contact from './sections/Contact';
+import Footer from './components/Footer';
 
+import Login from './pages/Login';
+// import Register from './pages/Register';
 
 function App() {
   return (
@@ -22,7 +29,17 @@ function App() {
       <Bottom />
       <AdditionalSkills />
       <Bottom />
-      {/* <Login /> */}
+      <Experience />
+      <Bottom />
+      <Projects />
+      <Bottom />
+      <MultiProj />
+      <Bottom />
+      <Education />
+      <Bottom />
+      <Contact />
+      <Bottom />
+      <Footer />
     </>
   );
 }

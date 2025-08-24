@@ -1,7 +1,11 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
+import { gsap } from "gsap";
 
 const Cube = () => {
+    const expRef = useRef(null);
+
     useEffect(() => {
+        // 🔹 Cube rotation by mouse
         const cube = document.getElementById("cube");
 
         const handleMouseMove = (e) => {
@@ -17,39 +21,71 @@ const Cube = () => {
         };
 
         document.addEventListener("mousemove", handleMouseMove);
-        return () => document.removeEventListener("mousemove", handleMouseMove);
+
+        // 🔹 Boxes hover animation with GSAP
+        const section = expRef.current;
+        const boxes = gsap.utils.toArray(".Boxes");
+
+        const tl = gsap.to(boxes, {
+            rotation: 360,
+            duration: 6,
+            ease: "linear",
+            repeat: -1, // infinite spin
+            paused: true,
+            transformOrigin: "center center",
+        });
+
+        const handleEnter = () => tl.play();
+        const handleLeave = () => tl.pause();
+
+        if (section) {
+            section.addEventListener("mouseenter", handleEnter);
+            section.addEventListener("mouseleave", handleLeave);
+        }
+
+        // 🔹 Cleanup
+        return () => {
+            document.removeEventListener("mousemove", handleMouseMove);
+            if (section) {
+                section.removeEventListener("mouseenter", handleEnter);
+                section.removeEventListener("mouseleave", handleLeave);
+            }
+        };
     }, []);
 
     return (
-        <section className="Demo_Parent">
-            <div className="container">
+        <section className="Demo_Parent" ref={expRef}>
+            <div className="container position-relative">
+                {/* Boxes */}
+                <div className="Box1 Boxes"></div>
+                <div className="Box2 Boxes"></div>
+                <div className="Box3 Boxes"></div>
+                <div className="Box4 Boxes"></div>
+                <div className="Box5 Boxes"></div>
+                <div className="Box6 Boxes"></div>
+                <div className="Box7 Boxes"></div>
+                <div className="Box8 Boxes"></div>
+
                 <div className="row align-items-center">
-                    {/* Left Column for Cube */}
+                    {/* Left Column */}
                     <div className="col-md-4">
                         <div className="d-flex flex-column gap-2">
                             <h2>Interactive 3D Experience</h2>
-                            <h3>Move your mouse and watch the cube respond instantly with smooth 3D rotations.</h3>
+                            <h3>
+                                Move your mouse and watch the cube respond instantly with smooth
+                                3D rotations.
+                            </h3>
                             <ul className="d-flex flex-column gap-1">
-                                <li>
-                                    <p>🎮 <strong>Mouse-controlled Rotation</strong> </p>
-                                </li>
-                                <li>
-                                    <p>⚡ <strong>Smooth Animations</strong></p>
-                                </li>
-                                <li>
-                                    <p>🖥️ <strong>Responsive Design</strong> </p>
-                                </li>
-                                <li>
-                                    <p>🔥 <strong>Pure CSS + JavaScript Power</strong> </p>
-                                </li>
-                                <li>
-                                    <p>🌐 <strong>Engaging User Interaction</strong></p>
-                                </li>
+                                <li>🎮 <strong>Mouse-controlled Rotation</strong></li>
+                                <li>⚡ <strong>Smooth Animations</strong></li>
+                                <li>🖥️ <strong>Responsive Design</strong></li>
+                                <li>🔥 <strong>Pure CSS + JavaScript Power</strong></li>
+                                <li>🌐 <strong>Engaging User Interaction</strong></li>
                             </ul>
                         </div>
                     </div>
 
-                    {/* Right Column for Content */}
+                    {/* Right Column */}
                     <div className="col-md-8">
                         <div className="Demo">
                             <div className="scene" id="scene">

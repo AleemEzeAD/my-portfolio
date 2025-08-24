@@ -72,7 +72,7 @@ const AnimatedHero = () => {
                                 <span className="wave">👋</span>
                             </div>
                             <h1>
-                                This is <strong>Aleem Abbas</strong>
+                                This is <strong>Aleem Abbas </strong>
                                 Professional Web Developer
                             </h1>
 

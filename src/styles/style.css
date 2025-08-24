@@ -234,11 +234,12 @@ span {
     font-family: 'Roboto', sans-serif;
 }
 
+.hover2,
 .hover1 {
-    display: block;
+    display: inline-block;
     padding: 10px 20px;
-    border: 'none';
-    background: #3F0F4D;
+    border: none;
+    background: #FFA500;
     color: #ffffff;
     font-size: 16px;
     line-height: 22px;
@@ -247,30 +248,10 @@ span {
     transition: all 0.3s ease-in-out;
 }
 
-.hover1 {
-    display: block;
-    padding: 10px 20px;
-    border: 'none';
-    background: #3F0F4D;
-    color: #ffffff;
-    font-size: 16px;
-    line-height: 22px;
-    font-weight: 600;
-    border-radius: 6px;
-    transition: all 0.3s ease-in-out;
-}
-
-.hover2 {
-    display: block;
-    padding: 10px 20px;
-    border: 'none';
-    background: #3F0F4D;
-    color: #ffffff;
-    font-size: 16px;
-    line-height: 22px;
-    font-weight: 600;
-    border-radius: 6px;
-    transition: all 0.3s ease-in-out;
+.hover2:hover,
+.hover1:hover {
+    background: #ff7f00;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 /* ===== bottom tag start =====*/
@@ -452,6 +433,7 @@ header .overlay {
 .Hero .animated-text {
     font-family: 'Courier', monospace;
     display: inline-block;
+    height: 45px;
 }
 
 .Hero .wave {
@@ -570,7 +552,7 @@ header .overlay {
     color: #ffffff;
 }
 
-.Demo_Parent ul li p {
+.Demo_Parent ul li {
     color: #ffffff;
     font-size: 14px;
     line-height: 20px;
@@ -752,6 +734,61 @@ header .overlay {
     }
 }
 
+.Demo_Parent .Boxes {
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    transition: all 0.3s ease-in;
+}
+
+.Demo_Parent:hover .Boxes {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.Demo_Parent .Box1 {
+    top: 10%;
+    right: 0;
+}
+
+.Demo_Parent .Box2 {
+    top: 10%;
+    right: 20%;
+}
+
+.Demo_Parent .Box3 {
+    top: 10%;
+    right: 40%;
+}
+
+.Demo_Parent .Box4 {
+    top: 60%;
+    right: 20%;
+}
+
+.Demo_Parent .Box5 {
+    top: 60%;
+    right: 40%;
+}
+
+.Demo_Parent .Box6 {
+    top: 60%;
+    right: 0%;
+}
+
+.Demo_Parent .Box7 {
+    top: 10%;
+    left: 30%;
+}
+
+.Demo_Parent .Box8 {
+    top: 60%;
+    left: 30%;
+}
+
 /* ========= Demo section Ended ========= */
 /* ========= Intro section Start ========= */
 .Intro {
@@ -804,7 +841,7 @@ header .overlay {
     left: 0;
     z-index: -1;
     width: 100%;
-    height: 80%;
+    height: 100%;
     background: url("../assets/images/bg/bg_pattern.png");
     background-position: to top;
     background-size: 50px auto;
@@ -839,7 +876,7 @@ header .overlay {
 
 .Skills .FilledProgress {
     height: 100%;
-    background-color: #00FFFF;
+    background-color: #FFA500;
     width: 0%;
     border-radius: 10px;
 }
@@ -855,23 +892,8 @@ header .overlay {
     font-family: "Playfair Display", serif;
 }
 
-.Skills .BlurBG::before {
-    content: '';
-    background: #0C7280;
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 0%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-    filter: blur(200px);
-}
-
 /*========= Skills section End =========*/
 /*========= AdditionalSkills section Start =========*/
-/* Base section styling (your existing CSS) */
 .AdditionalSkills {
     padding: 70px 0px;
     position: relative;
@@ -885,7 +907,7 @@ header .overlay {
     left: 0;
     z-index: -1;
     width: 100%;
-    height: 80%;
+    height: 100%;
     background: url("../assets/images/bg/bg_pattern.png");
     background-size: 50px auto;
     opacity: 0.4;
@@ -894,6 +916,23 @@ header .overlay {
 .AdditionalSkills .content {
     width: 60%;
     padding-bottom: 40px;
+}
+
+.AdditionalSkills .boxes {
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+}
+
+.AdditionalSkills .boxes:hover {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
 }
 
 .AdditionalSkills p,
@@ -925,9 +964,408 @@ header .overlay {
 
 /*========= AdditionalSkills section End =========*/
 
+/*========= Exp section Start =========*/
+.Exp {
+    padding: 100px 0px;
+    position: relative;
+}
+
+.Exp::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../assets/images/bg/bg_pattern.png");
+    background-size: 50px auto;
+    opacity: 0.4;
+}
 
 
+.Exp figure {
+    width: 100%;
+    animation: jump 2s ease-in-out infinite;
+    position: relative;
+    z-index: 10;
+}
 
+.Exp figure img {
+    width: 100%;
+}
+
+.Exp h2 {
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.Exp h3 {
+    font-size: 20px;
+    line-height: 26px;
+    color: #ffffff;
+    font-family: "Playfair Display", serif;
+}
+
+.Exp span {
+    font-size: 20px;
+    line-height: 26px;
+    color: #00FFFF;
+    font-family: "Playfair Display", serif;
+}
+
+.Exp .Boxes {
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    position: absolute;
+    z-index: 0;
+    transition: all 0.3s ease-in;
+}
+
+.Exp:hover .Boxes {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.Exp .Box1 {
+    top: 0;
+    right: 0;
+}
+
+.Exp .Box2 {
+    right: 20%;
+}
+
+.Exp .Box3 {
+    top: 0%;
+    right: 40%;
+}
+
+.Exp .Box4 {
+    top: 80%;
+    right: 20%;
+}
+
+.Exp .Box5 {
+    top: 50%;
+    right: 40%;
+}
+
+.Exp .Box6 {
+    top: 60%;
+    right: 0%;
+}
+
+.Exp .Box7 {
+    top: 100%;
+    left: 10%;
+}
+
+.Exp .Box8 {
+    top: 100%;
+    left: 30%;
+}
+
+/*========= Exp section End =========*/
+/*========= Projects section Start =========*/
+.Projects h2 {
+    color: #ffffff;
+}
+
+.Projects p {
+    color: #ffffff;
+}
+
+.Projects figure {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+}
+
+.Projects figure img {
+    width: 100%;
+    transition: all 0.5s ease-in;
+}
+
+.Projects .row {
+    row-gap: 50px;
+}
+
+.Projects .text-center {
+    width: 70%;
+    margin: auto;
+    padding-bottom: 70px;
+}
+
+.Projects .proj {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+    transition: all 0.3s ease-in;
+}
+
+.Projects .proj:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.Projects .proj:hover img {
+    transform: scale(1.1);
+}
+
+.Projects h4 {
+    color: #ffffff;
+    padding-right: 35px;
+    flex-grow: 1;
+}
+
+.Projects span {
+    color: #00FFFF;
+}
+
+.Projects i {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.Projects a i,
+.Projects a {
+    color: #ffffff;
+    font-size: 16px;
+    transition: all 0.3s ease-in;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+
+.Projects a:hover {
+    color: #00FFFF;
+}
+
+.Projects a:hover i {
+    color: #00FFFF;
+    transform: translateX(6px);
+}
+
+/*========= Projects section End =========*/
+/*========= 1.8. Education section =========*/
+.Education {
+    position: relative;
+    padding: 70px 0px;
+}
+
+.Education::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../assets/images/bg/bg_pattern.png");
+    background-size: 50px auto;
+    opacity: 0.4;
+}
+
+.Education h3 {
+    color: #00FFFF;
+    font-family: "Playfair Display", serif;
+}
+
+.Education .text-center {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.Education h2,
+.Education h5 {
+    color: #ffffff;
+}
+
+.Education p {
+    color: #ffffff;
+}
+
+.Education .subjects .d-flex {
+    width: 100%;
+    gap: 10px;
+}
+
+.Education .sub i {
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.Education .sub {
+    width: 50%;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+
+.Education .sub:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.Education .sub:hover i {
+    animation: blinkIcon 1s infinite ease-in-out;
+}
+
+@keyframes blinkIcon {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.3;
+        transform: scale(1.2);
+    }
+}
+
+/*========= Education section End =========*/
+/*========= Education section Start =========*/
+.Contact {
+    position: relative;
+    padding: 50px 0px;
+}
+
+.Contact::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: url("../assets/images/bg/bg_pattern.png");
+    background-size: 50px auto;
+    opacity: 0.4;
+}
+
+.Contact label,
+.Contact p,
+.Contact h2 {
+    color: #ffffff;
+}
+
+.Contact .contact_text {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in;
+}
+
+.modal-content {
+    width: 400px;
+    border-radius: 22px;
+}
+
+.modal-body {
+    width: 100%;
+    border-radius: 20px;
+    background-color: #002d52;
+}
+
+.modal-body h5,
+.modal-body p,
+.modal-body i {
+    color: #ffffff;
+}
+
+.modal-body button {
+    border-color: #3F0F4D;
+    background: #3F0F4D;
+}
+
+/*========= Education section End =========*/
+/*========= Footer section Start =========*/
+footer {
+    padding-top: 70px;
+    background: rgba(0, 45, 82, 0.6);
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+footer h2,
+footer h3,
+footer p {
+    color: #ddd;
+}
+
+footer .Social,
+footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .Main_Con {
+    gap: 15px;
+}
+
+footer .Socials,
+footer .Quick {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .Quick {
+    border-left: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+footer .Socials {
+    border-left: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+footer .Quick a {
+    font-size: 18px;
+    line-height: 22px;
+    color: #ddd;
+}
+
+footer .Socials .Social a {
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer hr {
+    color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(255, 255, 255, 0.15);
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 0;
+    width: 1px;
+    height: 100%;
+
+}
+
+footer .footer_bottom {
+    margin-top: 40px;
+    padding: 20px 0px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+
+}
+
+/*========= Footer section End =========*/
 
 
 

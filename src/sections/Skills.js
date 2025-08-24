@@ -92,6 +92,12 @@ const Skills = () => {
                                 creativity, technical expertise, and strategic problem-solving to deliver
                                 exceptional digital experiences.
                             </p>
+                            <div className="mt-2">
+                                <a className="hover1"
+                                    href="assets/images/Resume/Aleem_Resume.pdf" target="_blank" download>Download
+                                    CV
+                                </a>
+                            </div>
                         </div>
                     </div>
 
