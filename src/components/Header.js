@@ -15,13 +15,13 @@ function Header() {
 
                     {/* Logo */}
                     <a href="#home" className="DesktopLogo">
-                        <img src={Logo} alt="Logo icon" />
+                        <img width="" height="" src={Logo} alt="Logo icon" />
                     </a>
 
                     {/* Top Navigation */}
                     <nav className="d-lg-block d-none">
                         <ul className="nav">
-                            <li className="nav-item"><a href="#home">Home</a></li>
+                            <li className="nav-item"><a href="#home" className="active">Home</a></li>
                             <li className="nav-item"><a href="#introduction">Introduction</a></li>
                             <li className="nav-item"><a href="#skills">Skills</a></li>
                             <li className="nav-item"><a href="#projects">Projects</a></li>
@@ -36,7 +36,7 @@ function Header() {
                     </div>
 
                     {/* Mobile Menu Toggle */}
-                    <button className="menu-toggle d-lg-none d-flex hover1" onClick={() => setIsOpen(true)}>
+                    <button aria-label="Open menu" className="menu-toggle d-lg-none d-flex hover1" onClick={() => setIsOpen(true)}>
                         <FontAwesomeIcon icon={faBars} />
                     </button>
 
@@ -44,16 +44,16 @@ function Header() {
                     <aside className={`sidebar ${isOpen ? 'open' : ''}`}>
                         <div className="d-flex justify-content-between align-items-center">
                             <a href="#home" className="sidebar-logo">
-                                <img src={Logo} alt="Logo icon" />
+                                <img width="" height="" src={Logo} alt="Logo icon" />
                             </a>
-                            <button className="close-btn hover1" onClick={() => setIsOpen(false)}>
+                            <button aria-label="close menu" className="close-btn hover1" onClick={() => setIsOpen(false)}>
                                 <FontAwesomeIcon icon={faXmark} />
                             </button>
                         </div>
 
                         <nav className="sidebar-nav">
                             <ul className="sidebar-menu">
-                                <li><a href="#home" className="sidebar-link">Home</a></li>
+                                <li><a href="#home" className="sidebar-link active">Home</a></li>
                                 <li><a href="#introduction" className="sidebar-link">Introduction</a></li>
                                 <li><a href="#skills" className="sidebar-link">Skills</a></li>
                                 <li><a href="#projects" className="sidebar-link">Projects</a></li>

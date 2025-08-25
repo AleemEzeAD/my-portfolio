@@ -90,7 +90,7 @@ const AnimatedSignIn = () => {
                                         <a href="#" className="text-decoration-none options-link">Signup</a>
                                     </div>
 
-                                    <Button variant="primary" className="w-100 login-btn">
+                                    <Button aria-label="page login" variant="primary" className="w-100 login-btn">
                                         Login
                                     </Button>
                                 </Form>

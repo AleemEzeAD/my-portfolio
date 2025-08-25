@@ -1,9 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap";
 
 // 🔹 Import images
-import proj1 from "../assets/images/translated/cravestay.png";
-import proj2 from "../assets/images/translated/linqbuzz.png";
-import proj3 from "../assets/images/translated/caring.png";
+import proj1 from "../assets/images/translated/cravestay.webp";
+import proj2 from "../assets/images/translated/linqbuzz.webp";
+import proj3 from "../assets/images/translated/caring.webp";
 
 function MultiLanguageProjects() {
     return (
@@ -23,14 +23,14 @@ function MultiLanguageProjects() {
                     <Col lg={4} md={6}>
                         <div className="proj h-100 d-flex flex-column gap-2">
                             <figure>
-                                <img src={proj1} alt="Cravestay" />
+                                <img width="" height="" src={proj1} alt="Cravestay" loading="lazy" />
                             </figure>
                             <div className="d-flex align-items-center gap-3 pt-4 pb-3">
                                 <i className="fa-regular fa-calendar"></i>
                                 <span className="date">December 8, 2024</span>
                             </div>
                             <div className="d-flex flex-column gap-3 flex-grow-1">
-                                <h4>Cravestay Luxury Hotel and Resort</h4>
+                                <h3>Cravestay Luxury Hotel and Resort</h3>
                                 <div>
                                     <a
                                         href="https://html-templates.evonicmedia.com/cravestayar/"
@@ -47,14 +47,14 @@ function MultiLanguageProjects() {
                     <Col lg={4} md={6}>
                         <div className="proj h-100 d-flex flex-column gap-2">
                             <figure>
-                                <img src={proj2} alt="LINQBUZZ" />
+                                <img width="" height="" src={proj2} alt="LINQBUZZ" loading="lazy" />
                             </figure>
                             <div className="d-flex align-items-center gap-3 pt-4 pb-3">
                                 <i className="fa-regular fa-calendar"></i>
                                 <span className="date">December 17, 2024</span>
                             </div>
                             <div className="d-flex flex-column gap-3 flex-grow-1">
-                                <h4>LINQBUZZ - Blog, Magazine & Personal Blog</h4>
+                                <h3>LINQBUZZ - Blog, Magazine & Personal Blog</h3>
                                 <div>
                                     <a
                                         href="https://html-templates.evonicmedia.com/linqbuzzar/"
@@ -71,14 +71,14 @@ function MultiLanguageProjects() {
                     <Col lg={4} md={6}>
                         <div className="proj h-100 d-flex flex-column gap-2">
                             <figure>
-                                <img src={proj3} alt="Caring Crest" />
+                                <img width="" height="" src={proj3} alt="Caring Crest" loading="lazy" />
                             </figure>
                             <div className="d-flex align-items-center gap-3 pt-4 pb-3">
                                 <i className="fa-regular fa-calendar"></i>
                                 <span className="date">December 28, 2024</span>
                             </div>
                             <div className="d-flex flex-column gap-3 flex-grow-1">
-                                <h4>Caring Crest - Senior Care Services</h4>
+                                <h3>Caring Crest - Senior Care Services</h3>
                                 <div>
                                     <a
                                         href="https://html-templates.evonicmedia.com/caringcrestar/"

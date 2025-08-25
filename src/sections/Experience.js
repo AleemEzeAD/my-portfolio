@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import Experience from "../assets/images/index/exp.png";
+import Experience from "../assets/images/index/exp.webp";
 import { Container, Row, Col } from "react-bootstrap";
 
 function ExperienceSection() {
@@ -74,7 +74,7 @@ function ExperienceSection() {
 
                     <Col lg={6} md={6}>
                         <figure className="d-flex flex-column justify-content-center align-items-center h-100">
-                            <img src={Experience} alt="exp" />
+                            <img width="" height="" src={Experience} alt="exp" />
                         </figure>
                     </Col>
                 </Row>

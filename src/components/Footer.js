@@ -22,10 +22,10 @@ export default function Footer() {
                         <div className="Quick">
                             <h3>Quick Links</h3>
                             <ul>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#skills">Skills</a></li>
-                                <li><a href="#projects">Projects</a></li>
-                                <li><a href="#contact">Contact</a></li>
+                                <li><a aria-label="about" href="#about">About</a></li>
+                                <li><a aria-label="skills" href="#skills">Skills</a></li>
+                                <li><a aria-label="projects" href="#projects">Projects</a></li>
+                                <li><a aria-label="contact" href="#contact">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -35,9 +35,9 @@ export default function Footer() {
                         <div className="Socials">
                             <h3>Connect</h3>
                             <div className="Social">
-                                <a href="#"><i className="fa-brands fa-linkedin"></i></a>
-                                <a href="#"><i className="fa-brands fa-github"></i></a>
-                                <a href="#"><i className="fa-brands fa-twitter"></i></a>
+                                <a href="#" aria-label="linkedin"><i className="fa-brands fa-linkedin"></i></a>
+                                <a href="#" aria-label="github"><i className="fa-brands fa-github"></i></a>
+                                <a href="#" aria-label="twitter"><i className="fa-brands fa-twitter"></i></a>
                             </div>
                         </div>
                     </div>

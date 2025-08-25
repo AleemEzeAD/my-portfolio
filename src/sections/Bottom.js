@@ -1,4 +1,4 @@
-import tageIcon from '../assets/images/icons/tage.png'; 
+import tageIcon from '../assets/images/icons/tage.webp';
 
 const TagSection = () => {
   return (
@@ -6,7 +6,7 @@ const TagSection = () => {
       <div className="container">
         <div className="d-flex align-items-center gap-3 tage">
           <hr className="flex-grow-1" />
-          <img src={tageIcon} alt="tage" />
+          <img width="" height="" src={tageIcon} alt="tage" loading="lazy" />
           <hr className="flex-grow-1" />
         </div>
       </div>

@@ -15,10 +15,10 @@ function Education() {
                                 Industry Practices
                             </p>
                             <h3>Degree Name</h3>
-                            <h5>Bachelor of Science in Information Technology</h5>
+                            <h4>Bachelor of Science in Information Technology</h4>
 
                             <h3>Institute Name</h3>
-                            <h5>The Islamia University of Bahawalpur</h5>
+                            <h4>The Islamia University of Bahawalpur</h4>
 
                             <p className="pt-md-3">
                                 I have learned different Advanced Technologies during my

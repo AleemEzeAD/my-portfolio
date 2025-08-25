@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import { Container, Row, Col, Form, Modal } from "react-bootstrap";
-import ContactImg from "../assets/images/index/contact.png";
+import ContactImg from "../assets/images/index/contact.webp";
 
 function ContactSec() {
     const formRef = useRef(null);
@@ -21,7 +21,7 @@ function ContactSec() {
                             <img
                                 src={ContactImg}
                                 alt="contact"
-                                className="contact-img img-fluid"
+                                className="contact-img img-fluid" loading="lazy"
                             />
                         </figure>
                     </Col>
@@ -56,7 +56,7 @@ function ContactSec() {
                                         required
                                     />
                                 </Form.Group>
-                                <button type="submit" className="hover1">
+                                <button aria-label="send message" type="submit" className="hover1">
                                     Send Message ✉️
                                 </button>
                             </Form>
@@ -73,7 +73,7 @@ function ContactSec() {
                     </div>
                     <h5>Your Message</h5>
                     <p className="mb-3">Delivered Successfully ✅</p>
-                    <button className="hover1" onClick={() => setShowModal(false)}>Close</button>
+                    <button aria-label="Close Modal" className="hover1" onClick={() => setShowModal(false)}>Close</button>
                 </Modal.Body>
             </Modal>
         </section>

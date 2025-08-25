@@ -1,4 +1,4 @@
-import Overview from '../assets/images/index/overview.png';
+import Overview from '../assets/images/index/overview.webp';
 
 
 const Intro = () => {
@@ -35,7 +35,7 @@ const Intro = () => {
                     </div>
                     <div className="col-lg-6 col-md-6">
                         <figure>
-                            <img src={Overview} alt="intro" />
+                            <img width="" height="" src={Overview} alt="intro" loading="lazy" />
                         </figure>
                     </div>
                 </div>

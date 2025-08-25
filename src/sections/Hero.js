@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import HeroImage from '../assets/images/index/web.png';
+import HeroImage from '../assets/images/index/web.webp';
 
 const AnimatedHero = () => {
     useEffect(() => {
@@ -85,7 +85,7 @@ const AnimatedHero = () => {
                     <Col md={8} lg={6}>
                         <div className="d-flex h-100 align-items-center justify-content-center">
                             <figure>
-                                <img src={HeroImage} alt="hero" className="hero-img" />
+                                <img width="" height="" src={HeroImage} alt="hero" className="hero-img" fetchPriority="high" decoding="async" />
                             </figure>
                         </div>
                     </Col>

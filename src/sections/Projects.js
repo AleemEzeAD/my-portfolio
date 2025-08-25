@@ -1,11 +1,11 @@
 import { Container, Row, Col } from "react-bootstrap";
 // 🔹 Import project images
-import proj1 from "../assets/images/projects/chirolift.png";
-import proj2 from "../assets/images/projects/linqbuzz.png";
-import proj3 from "../assets/images/projects/caringcrest.png";
-import proj4 from "../assets/images/projects/david.png";
-import proj5 from "../assets/images/projects/stockrypt.png";
-import proj6 from "../assets/images/projects/cravestay.png";
+import proj1 from "../assets/images/projects/chirolift.webp";
+import proj2 from "../assets/images/projects/linqbuzz.webp";
+import proj3 from "../assets/images/projects/caringcrest.webp";
+import proj4 from "../assets/images/projects/david.webp";
+import proj5 from "../assets/images/projects/stockrypt.webp";
+import proj6 from "../assets/images/projects/cravestay.webp";
 
 function ProjectsSection() {
     return (
@@ -30,14 +30,14 @@ function ProjectsSection() {
                     <Col lg={4} md={6}>
                         <div className="proj h-100 d-flex flex-column gap-2">
                             <figure>
-                                <img src={proj1} alt="Chirolift" />
+                                <img width="" height="" src={proj1} alt="Chirolift " loading="lazy" />
                             </figure>
                             <div className="d-flex align-items-center gap-3 pt-4 pb-3">
                                 <i className="fa-regular fa-calendar"></i>
                                 <span className="date">April 27, 2024</span>
                             </div>
                             <div className="d-flex flex-column gap-3 flex-grow-1">
-                                <h4>Chirolift - Physiotherapy & Chiropractic</h4>
+                                <h3>Chirolift - Physiotherapy & Chiropractic</h3>
                                 <div>
                                     <a
                                         href="https://themeforest.net/item/chirolift-physiotherapy-chiropractic-html5-website/54306022"
@@ -54,14 +54,14 @@ function ProjectsSection() {
                     <Col lg={4} md={6}>
                         <div className="proj h-100 d-flex flex-column gap-2">
                             <figure>
-                                <img src={proj2} alt="LINQBUZZ" />
+                                <img width="" height="" src={proj2} alt="LINQBUZZ " loading="lazy" />
                             </figure>
                             <div className="d-flex align-items-center gap-3 pt-4 pb-3">
                                 <i className="fa-regular fa-calendar"></i>
                                 <span className="date">May 27, 2024</span>
                             </div>
                             <div className="d-flex flex-column gap-3 flex-grow-1">
-                                <h4>LINQBUZZ - Blog, Magazine & Personal Blog</h4>
+                                <h3>LINQBUZZ - Blog, Magazine & Personal Blog</h3>
                                 <div>
                                     <a
                                         href="https://themeforest.net/item/linqbuzz-blog-magazine-html5-template/54374892"
@@ -78,14 +78,14 @@ function ProjectsSection() {
                     <Col lg={4} md={6}>
                         <div className="proj h-100 d-flex flex-column gap-2">
                             <figure>
-                                <img src={proj3} alt="Caring Crest" />
+                                <img width="" height="" src={proj3} alt="Caring Crest " loading="lazy" />
                             </figure>
                             <div className="d-flex align-items-center gap-3 pt-4 pb-3">
                                 <i className="fa-regular fa-calendar"></i>
                                 <span className="date">June 27, 2024</span>
                             </div>
                             <div className="d-flex flex-column gap-3 flex-grow-1">
-                                <h4>Caring Crest - Senior Care Services</h4>
+                                <h3>Caring Crest - Senior Care Services</h3>
                                 <div>
                                     <a
                                         href="https://html-templates.evonicmedia.com/caringcrest/"
@@ -102,14 +102,14 @@ function ProjectsSection() {
                     <Col lg={4} md={6}>
                         <div className="proj h-100 d-flex flex-column gap-2">
                             <figure>
-                                <img src={proj4} alt="David Dean" />
+                                <img width="" height="" src={proj4} alt="David Dean " loading="lazy" />
                             </figure>
                             <div className="d-flex align-items-center gap-3 pt-4 pb-3">
                                 <i className="fa-regular fa-calendar"></i>
                                 <span className="date">July 27, 2024</span>
                             </div>
                             <div className="d-flex flex-column gap-3 flex-grow-1">
-                                <h4>David Dean - The UI/UX Designer</h4>
+                                <h3>David Dean - The UI/UX Designer</h3>
                                 <div>
                                     <a
                                         href="https://html-templates.evonicmedia.com/daviddean/"
@@ -126,14 +126,14 @@ function ProjectsSection() {
                     <Col lg={4} md={6}>
                         <div className="proj h-100 d-flex flex-column gap-2">
                             <figure>
-                                <img src={proj5} alt="Stockrypt" />
+                                <img width="" height="" src={proj5} alt="Stockrypt " loading="lazy" />
                             </figure>
                             <div className="d-flex align-items-center gap-3 pt-4 pb-3">
                                 <i className="fa-regular fa-calendar"></i>
                                 <span className="date">August 27, 2024</span>
                             </div>
                             <div className="d-flex flex-column gap-3 flex-grow-1">
-                                <h4>Stockrypt - Crypto & Stock Exchange</h4>
+                                <h3>Stockrypt - Crypto & Stock Exchange</h3>
                                 <div>
                                     <a
                                         href="https://html-templates.evonicmedia.com/stockrypt/"
@@ -150,14 +150,14 @@ function ProjectsSection() {
                     <Col lg={4} md={6}>
                         <div className="proj h-100 d-flex flex-column gap-2">
                             <figure>
-                                <img src={proj6} alt="Cravestay" />
+                                <img width="" height="" src={proj6} alt="Cravestay " loading="lazy" />
                             </figure>
                             <div className="d-flex align-items-center gap-3 pt-4 pb-3">
                                 <i className="fa-regular fa-calendar"></i>
                                 <span className="date">September 27, 2024</span>
                             </div>
                             <div className="d-flex flex-column gap-3 flex-grow-1">
-                                <h4>Cravestay - Luxury Hotel & Resort</h4>
+                                <h3>Cravestay - Luxury Hotel & Resort</h3>
                                 <div>
                                     <a
                                         href="https://themeforest.net/item/cravestay-luxury-hotel-resort-html5-template/54976894"
