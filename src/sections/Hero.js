@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import HeroImage from '../assets/images/index/web.webp';
+import HeroImage from '../assets/images/index/Hero1.webp';
 
 const AnimatedHero = () => {
     useEffect(() => {

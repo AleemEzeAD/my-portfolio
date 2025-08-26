@@ -60,7 +60,7 @@ function App() {
 export default App;
 
 // git checkout main
-//  // git add .
-//  // git commit -am 
-// // git push origin main 
-// // npm run deploy dkho kia ye thik hai?
+// git add .
+// git commit -am
+// git push origin main
+// npm run deploy 
