@@ -1,31 +1,42 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.dc49a2fe.css",
-    "main.js": "/my-portfolio/static/js/main.ce428e32.js",
-    "static/media/web.png": "/my-portfolio/static/media/web.8b410c36593b0fd774eb.png",
-    "static/media/tage.png": "/my-portfolio/static/media/tage.f9559fb2ebd52deb5aea.png",
+    "main.css": "/my-portfolio/static/css/main.097f1b4a.css",
+    "main.js": "/my-portfolio/static/js/main.c7084e35.js",
+    "static/media/web.webp": "/my-portfolio/static/media/web.797cbfe4dfaaf7294c4d.webp",
+    "static/media/contact.webp": "/my-portfolio/static/media/contact.8f9fe86871fec05a24db.webp",
+    "static/media/linqbuzz.webp": "/my-portfolio/static/media/linqbuzz.1a075e37b76586e718a2.webp",
     "static/media/demo2.png": "/my-portfolio/static/media/demo2.02099103dd22e203d5db.png",
+    "static/media/overview.webp": "/my-portfolio/static/media/overview.5b30783cd869046d5612.webp",
     "static/media/demo3.png": "/my-portfolio/static/media/demo3.310070b8af8b47116f50.png",
     "static/media/demo5.png": "/my-portfolio/static/media/demo5.9c53bf8e854f45c378e9.png",
+    "static/media/caringcrest.webp": "/my-portfolio/static/media/caringcrest.926a8613b9ff2358726d.webp",
     "static/media/fa-solid-900.woff2": "/my-portfolio/static/media/fa-solid-900.f54756da1f3d1b88887f.woff2",
+    "static/media/cravestay.webp": "/my-portfolio/static/media/cravestay.61daed803c5141f1cac8.webp",
     "static/media/fa-brands-400.woff2": "/my-portfolio/static/media/fa-brands-400.1f6bad931d92a0a52c45.woff2",
     "static/media/demo4.png": "/my-portfolio/static/media/demo4.6b0e20c9018f0a4270ff.png",
     "static/media/demo1.png": "/my-portfolio/static/media/demo1.b20d9b1bb3dbae1c48a0.png",
+    "static/media/tage.webp": "/my-portfolio/static/media/tage.8d7af5d0ea256e258d8a.webp",
+    "static/media/david.webp": "/my-portfolio/static/media/david.5a35c0196d162da67b6e.webp",
     "static/media/logo.png": "/my-portfolio/static/media/logo.601feb56ebdf87e2d48e.png",
+    "static/media/chirolift.webp": "/my-portfolio/static/media/chirolift.8b4462867137baa2f453.webp",
+    "static/media/stockrypt.webp": "/my-portfolio/static/media/stockrypt.04747c83ab1655c50fb4.webp",
+    "static/media/caring.webp": "/my-portfolio/static/media/caring.fbef25e9c514200e2972.webp",
+    "static/media/exp.webp": "/my-portfolio/static/media/exp.5fe609357f870ddc77de.webp",
     "static/media/fa-regular-400.woff2": "/my-portfolio/static/media/fa-regular-400.5632c43107f4d3fa4806.woff2",
     "static/media/react.svg": "/my-portfolio/static/media/react.c3a0b34aae466451a91157424eec1ee3.svg",
     "static/media/fa-v4compatibility.woff2": "/my-portfolio/static/media/fa-v4compatibility.24fc9d217708cb3f0362.woff2",
     "static/media/bootstrap.svg": "/my-portfolio/static/media/bootstrap.3b3ab2cfe7cdf9d8eb417ce32f573b04.svg",
-    "static/media/javascript.svg": "/my-portfolio/static/media/javascript.f84ec7103324dc7e616d00ed43ecd531.svg",
     "index.html": "/my-portfolio/index.html",
+    "static/media/javascript.svg": "/my-portfolio/static/media/javascript.f84ec7103324dc7e616d00ed43ecd531.svg",
     "static/media/css.svg": "/my-portfolio/static/media/css.afb434f6d712d3e4ff53be8da4d9876a.svg",
     "static/media/html.svg": "/my-portfolio/static/media/html.75bdf0b057c088503944680032ea6347.svg",
     "static/media/figma.svg": "/my-portfolio/static/media/figma.cc8e111619371cf586cc11dbd3173da0.svg",
-    "main.dc49a2fe.css.map": "/my-portfolio/static/css/main.dc49a2fe.css.map",
-    "main.ce428e32.js.map": "/my-portfolio/static/js/main.ce428e32.js.map"
+    "static/media/bg_pattern.webp": "/my-portfolio/static/media/bg_pattern.f0d560be489bc43339a1.webp",
+    "main.097f1b4a.css.map": "/my-portfolio/static/css/main.097f1b4a.css.map",
+    "main.c7084e35.js.map": "/my-portfolio/static/js/main.c7084e35.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc49a2fe.css",
-    "static/js/main.ce428e32.js"
+    "static/css/main.097f1b4a.css",
+    "static/js/main.c7084e35.js"
   ]
 }
