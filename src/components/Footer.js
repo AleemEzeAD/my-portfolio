@@ -3,7 +3,7 @@ export default function Footer() {
         <footer>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-4">
+                    <div className="col-md-4 col-12">
                         <div className="d-flex flex-column Main_Con">
                             <h2>My Portfolio</h2>
                             <p>
@@ -18,7 +18,7 @@ export default function Footer() {
                             </p>
                         </div>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 col-sm-6 col-6">
                         <div className="Quick">
                             <h3>Quick Links</h3>
                             <ul>
@@ -31,7 +31,7 @@ export default function Footer() {
                     </div>
 
                     {/* Social Links */}
-                    <div className="col-md-4">
+                    <div className="col-md-4 col-sm-6 col-6">
                         <div className="Socials">
                             <h3>Connect</h3>
                             <div className="Social">

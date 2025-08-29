@@ -49,8 +49,8 @@ function App() {
           <Bottom />
           <Contact />
           <Bottom />
-          <Footer />
-          <BackToTop />
+           <Footer />
+          <BackToTop /> 
         </>
       )}
     </>

@@ -27,16 +27,16 @@ function ProjectsSection() {
 
                 {/* Projects Grid */}
                 <Row>
-                    <Col lg={4} md={6}>
+                    <Col lg={4} md={6} xs={6}>
                         <div className="proj h-100 d-flex flex-column gap-2">
                             <figure>
                                 <img width="" height="" src={proj1} alt="Chirolift " loading="lazy" />
                             </figure>
-                            <div className="d-flex align-items-center gap-3 pt-4 pb-3">
+                            <div className="d-flex align-items-center gap-md-3 gap-1 icons_P">
                                 <i className="fa-regular fa-calendar"></i>
                                 <span className="date">April 27, 2024</span>
                             </div>
-                            <div className="d-flex flex-column gap-3 flex-grow-1">
+                            <div className="d-flex flex-column gap-md-3 gap-2 flex-grow-1">
                                 <h3>Chirolift - Physiotherapy & Chiropractic</h3>
                                 <div>
                                     <a
@@ -51,16 +51,16 @@ function ProjectsSection() {
                         </div>
                     </Col>
 
-                    <Col lg={4} md={6}>
+                    <Col lg={4} md={6} xs={6}>
                         <div className="proj h-100 d-flex flex-column gap-2">
                             <figure>
                                 <img width="" height="" src={proj2} alt="LINQBUZZ " loading="lazy" />
                             </figure>
-                            <div className="d-flex align-items-center gap-3 pt-4 pb-3">
+                            <div className="d-flex align-items-center gap-md-3 gap-1 icons_P">
                                 <i className="fa-regular fa-calendar"></i>
                                 <span className="date">May 27, 2024</span>
                             </div>
-                            <div className="d-flex flex-column gap-3 flex-grow-1">
+                            <div className="d-flex flex-column gap-md-3 gap-2 flex-grow-1">
                                 <h3>LINQBUZZ - Blog, Magazine & Personal Blog</h3>
                                 <div>
                                     <a
@@ -75,16 +75,16 @@ function ProjectsSection() {
                         </div>
                     </Col>
 
-                    <Col lg={4} md={6}>
+                    <Col lg={4} md={6} xs={6}>
                         <div className="proj h-100 d-flex flex-column gap-2">
                             <figure>
                                 <img width="" height="" src={proj3} alt="Caring Crest " loading="lazy" />
                             </figure>
-                            <div className="d-flex align-items-center gap-3 pt-4 pb-3">
+                            <div className="d-flex align-items-center gap-md-3 gap-1 icons_P">
                                 <i className="fa-regular fa-calendar"></i>
                                 <span className="date">June 27, 2024</span>
                             </div>
-                            <div className="d-flex flex-column gap-3 flex-grow-1">
+                            <div className="d-flex flex-column gap-md-3 gap-2 flex-grow-1">
                                 <h3>Caring Crest - Senior Care Services</h3>
                                 <div>
                                     <a
@@ -99,16 +99,16 @@ function ProjectsSection() {
                         </div>
                     </Col>
 
-                    <Col lg={4} md={6}>
+                    <Col lg={4} md={6} xs={6}>
                         <div className="proj h-100 d-flex flex-column gap-2">
                             <figure>
                                 <img width="" height="" src={proj4} alt="David Dean " loading="lazy" />
                             </figure>
-                            <div className="d-flex align-items-center gap-3 pt-4 pb-3">
+                            <div className="d-flex align-items-center gap-md-3 gap-1 icons_P">
                                 <i className="fa-regular fa-calendar"></i>
                                 <span className="date">July 27, 2024</span>
                             </div>
-                            <div className="d-flex flex-column gap-3 flex-grow-1">
+                            <div className="d-flex flex-column gap-md-3 gap-2 flex-grow-1">
                                 <h3>David Dean - The UI/UX Designer</h3>
                                 <div>
                                     <a
@@ -123,16 +123,16 @@ function ProjectsSection() {
                         </div>
                     </Col>
 
-                    <Col lg={4} md={6}>
+                    <Col lg={4} md={6} xs={6}>
                         <div className="proj h-100 d-flex flex-column gap-2">
                             <figure>
                                 <img width="" height="" src={proj5} alt="Stockrypt " loading="lazy" />
                             </figure>
-                            <div className="d-flex align-items-center gap-3 pt-4 pb-3">
+                            <div className="d-flex align-items-center gap-md-3 gap-1 icons_P">
                                 <i className="fa-regular fa-calendar"></i>
                                 <span className="date">August 27, 2024</span>
                             </div>
-                            <div className="d-flex flex-column gap-3 flex-grow-1">
+                            <div className="d-flex flex-column gap-md-3 gap-2 flex-grow-1">
                                 <h3>Stockrypt - Crypto & Stock Exchange</h3>
                                 <div>
                                     <a
@@ -147,16 +147,16 @@ function ProjectsSection() {
                         </div>
                     </Col>
 
-                    <Col lg={4} md={6}>
+                    <Col lg={4} md={6} xs={6}>
                         <div className="proj h-100 d-flex flex-column gap-2">
                             <figure>
                                 <img width="" height="" src={proj6} alt="Cravestay " loading="lazy" />
                             </figure>
-                            <div className="d-flex align-items-center gap-3 pt-4 pb-3">
+                            <div className="d-flex align-items-center gap-md-3 gap-1 icons_P">
                                 <i className="fa-regular fa-calendar"></i>
                                 <span className="date">September 27, 2024</span>
                             </div>
-                            <div className="d-flex flex-column gap-3 flex-grow-1">
+                            <div className="d-flex flex-column gap-md-3 gap-2 flex-grow-1">
                                 <h3>Cravestay - Luxury Hotel & Resort</h3>
                                 <div>
                                     <a

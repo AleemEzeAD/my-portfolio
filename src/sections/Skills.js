@@ -19,29 +19,33 @@ const Skills = () => {
             const emptyProgress = progressBar.querySelector(".EmptyProgress");
 
             let currentProgress = 0;
-            const duration = 2000; // total animation duration
+            const duration = 2000;
             const stepTime = duration / 100;
             const incrementValue = progressValue / 100;
 
             const interval = setInterval(() => {
                 currentProgress += incrementValue;
 
-                // update width
-                filledProgress.style.width = Math.min(currentProgress, progressValue) + "%";
+                // bar width update
+                filledProgress.style.width =
+                    Math.min(currentProgress, progressValue) + "%";
 
-                // update % text
+                // % text update
                 skillProgress.textContent =
                     Math.round(Math.min(currentProgress, progressValue)) + "%";
 
-                // move text slightly along bar
+                // % position clamp
                 const maxWidth = emptyProgress.offsetWidth;
                 const maxLeft = maxWidth - skillProgress.offsetWidth;
                 const percentageLeft = (currentProgress / 100) * maxWidth;
-                const textLeft = Math.min(percentageLeft, maxLeft);
+
+                let textLeft = percentageLeft;
+                if (textLeft < 0) textLeft = 0;
+                if (textLeft > maxLeft) textLeft = maxLeft;
 
                 skillProgress.style.left = textLeft + "px";
 
-                // stop when target reached
+                // stop at target
                 if (currentProgress >= progressValue) {
                     clearInterval(interval);
                     skillProgress.textContent = progressValue + "%";
@@ -59,7 +63,7 @@ const Skills = () => {
                             10
                         );
                         animateProgress(entry.target, progressValue);
-                        observer.unobserve(entry.target); // run once
+                        observer.unobserve(entry.target);
                     }
                 });
             },
@@ -79,23 +83,32 @@ const Skills = () => {
                 <div className="row">
                     {/* Left Col */}
                     <div className="col-lg-6 col-md-6">
-                        <div className="d-flex flex-column gap-2">
+                        <div className="d-flex flex-column gap-2 align-items-md-start align-items-center justify-content-md-start justify-content-center text-md-start text-center">
                             <h2>My Creative Skills</h2>
                             <p>
-                                With over 3 years of experience in web development, I specialize in building
-                                responsive, user-friendly, and performance-optimized websites. I have worked
-                                on diverse projects including EzeAD.com, child sites, and ThemeForest-standard
-                                designs, ensuring clean code, scalability, and cross-device compatibility. My
-                                expertise lies in HTML, CSS, JavaScript,React Js, jQuery, and Bootstrap 5, with a
-                                strong focus on delivering efficient solutions that meet both client goals and
-                                industry standards. Every project I take on is an opportunity to apply
-                                creativity, technical expertise, and strategic problem-solving to deliver
+                                With over 3 years of experience in web development, I specialize
+                                in building responsive, user-friendly, and
+                                performance-optimized websites. I have worked on diverse
+                                projects including EzeAD.com, child sites, and
+                                ThemeForest-standard designs, ensuring clean code, scalability,
+                                and cross-device compatibility.
+                            </p>
+                            <p>
+                                My expertise lies in HTML, CSS, JavaScript, React Js, jQuery,
+                                and Bootstrap 5, with a strong focus on delivering efficient
+                                solutions that meet both client goals and industry standards.
+                                Every project I take on is an opportunity to apply creativity,
+                                technical expertise, and strategic problem-solving to deliver
                                 exceptional digital experiences.
                             </p>
                             <div className="mt-2">
-                                <a className="hover1"
-                                    href="assets/images/Resume/Aleem_Resume.pdf" target="_blank" download>Download
-                                    CV
+                                <a
+                                    className="hover1"
+                                    href="assets/images/Resume/Aleem_Resume.pdf"
+                                    target="_blank"
+                                    download
+                                >
+                                    Download CV
                                 </a>
                             </div>
                         </div>
@@ -110,25 +123,21 @@ const Skills = () => {
                                     ref={(el) => (progressRefs.current[index] = el)}
                                     className="ProgressContainer d-flex flex-column gap-2"
                                 >
-                                    {/* Skill Label & Value */}
+                                    {/* Skill Label */}
                                     <div className="d-flex align-items-center justify-content-between position-relative">
                                         <p>{skill.name}</p>
                                         <span
                                             className="SkillProgress"
                                             data-progress={skill.progress}
-                                            style={{ position: "absolute" }}
                                         >
-                                            0
+                                            0%
                                         </span>
                                     </div>
 
                                     {/* Progress Bar */}
                                     <div>
-                                        <div className="EmptyProgress" style={{ position: "relative" }}>
-                                            <div
-                                                className="FilledProgress"
-                                                style={{ width: "0%", transition: "width 0.3s linear" }}
-                                            ></div>
+                                        <div className="EmptyProgress">
+                                            <div className="FilledProgress"></div>
                                         </div>
                                     </div>
                                 </div>

@@ -106,7 +106,7 @@ const AdditionalSkills = () => {
     return (
         <section ref={skillsRef} className="AdditionalSkills">
             <Container>
-                <div className="d-flex flex-column gap-2 content">
+                <div className="d-flex flex-column gap-2 align-items-md-start align-items-center justify-content-md-start justify-content-center text-md-start text-center content">
                     <h2>My Professional Services</h2>
                     <p>
                         I offer a wide range of services tailored to bring ideas to life and help
@@ -122,9 +122,10 @@ const AdditionalSkills = () => {
                     {skills.map((skill, index) => (
                         <Col
                             key={index}
-                            xs={4}
-                            sm={3}
-                            md={2}
+                            lg={2}
+                            md={4}
+                            sm={6}
+                            xs={6}
                             className="skill-item text-center"
                         >
                             <div className="d-flex flex-column boxes">

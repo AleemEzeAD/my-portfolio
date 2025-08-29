@@ -25,11 +25,11 @@ function MultiLanguageProjects() {
                             <figure>
                                 <img width="" height="" src={proj1} alt="Cravestay" loading="lazy" />
                             </figure>
-                            <div className="d-flex align-items-center gap-3 pt-4 pb-3">
+                            <div className="d-flex align-items-center gap-md-3 gap-2 icons_P">
                                 <i className="fa-regular fa-calendar"></i>
                                 <span className="date">December 8, 2024</span>
                             </div>
-                            <div className="d-flex flex-column gap-3 flex-grow-1">
+                            <div className="d-flex flex-column gap-md-3 gap-2 flex-grow-1">
                                 <h3>Cravestay Luxury Hotel and Resort</h3>
                                 <div>
                                     <a
@@ -49,11 +49,11 @@ function MultiLanguageProjects() {
                             <figure>
                                 <img width="" height="" src={proj2} alt="LINQBUZZ" loading="lazy" />
                             </figure>
-                            <div className="d-flex align-items-center gap-3 pt-4 pb-3">
+                            <div className="d-flex align-items-center gap-md-3 gap-2 icons_P">
                                 <i className="fa-regular fa-calendar"></i>
                                 <span className="date">December 17, 2024</span>
                             </div>
-                            <div className="d-flex flex-column gap-3 flex-grow-1">
+                            <div className="d-flex flex-column gap-md-3 gap-2 flex-grow-1">
                                 <h3>LINQBUZZ - Blog, Magazine & Personal Blog</h3>
                                 <div>
                                     <a
@@ -73,11 +73,11 @@ function MultiLanguageProjects() {
                             <figure>
                                 <img width="" height="" src={proj3} alt="Caring Crest" loading="lazy" />
                             </figure>
-                            <div className="d-flex align-items-center gap-3 pt-4 pb-3">
+                            <div className="d-flex align-items-center gap-md-3 gap-2 icons_P">
                                 <i className="fa-regular fa-calendar"></i>
                                 <span className="date">December 28, 2024</span>
                             </div>
-                            <div className="d-flex flex-column gap-3 flex-grow-1">
+                            <div className="d-flex flex-column gap-md-3 gap-2 flex-grow-1">
                                 <h3>Caring Crest - Senior Care Services</h3>
                                 <div>
                                     <a

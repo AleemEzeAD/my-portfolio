@@ -20,14 +20,14 @@ function Education() {
                             <h3>Institute Name</h3>
                             <h4>The Islamia University of Bahawalpur</h4>
 
-                            <p className="pt-md-3">
+                            <p className="pt-lg-3">
                                 I have learned different Advanced Technologies during my
                                 Education journey
                             </p>
                         </div>
                     </Col>
                     <Col lg={6} md={6}>
-                        <div className="subjects d-flex flex-column gap-3 w-100 pt-4">
+                        <div className="subjects d-flex flex-column gap-3 w-100">
                             <div className="d-flex align-items-center justify-content-between">
                                 <div className="sub d-flex flex-column justify-content-center align-items-center gap-2">
                                     <i className="fa-solid fa-shield-halved"></i>

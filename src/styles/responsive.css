@@ -1,4 +1,11 @@
 /* =====  Global Styling Started  ====== */
+@media screen and (max-width: 1199px) {
+    h1 {
+        font-size: 46px;
+        line-height: 54px;
+    }
+}
+
 @media screen and (max-width: 991px) {
     .container {
         max-width: 959px;
@@ -109,6 +116,27 @@
         line-height: 22px;
     }
 
+    .hover2,
+    .hover1 {
+        padding: 8px 12px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .splash-text {
+        font-size: 1rem;
+    }
+
+    .back-to-top-button {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .back-to-top {
+        right: 12px;
+    }
+
 }
 
 /* =====  Global Styling Ended  ====== */
@@ -126,12 +154,29 @@
     header .sidebar-logo img {
         width: 150px;
     }
-
 }
 
 @media screen and (max-width: 480px) {
     header .DesktopLogo img {
         width: 140px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header .HeaderBtns {
+        display: none !important;
+    }
+
+    header .sidebar-logo img {
+        width: 120px;
+    }
+
+    header .DesktopLogo img {
+        width: 120px;
+    }
+
+    header .sidebar-menu {
+        margin-top: 40px;
     }
 }
 
@@ -142,12 +187,6 @@
 
     header .DesktopLogo img {
         width: 120px;
-    }
-
-    header .Open_Search {
-        width: 30px;
-        height: 30px;
-        font-size: 14px;
     }
 
     header .menu-toggle {
@@ -162,26 +201,703 @@
         font-size: 18px;
     }
 
-    header .search-modal {
-        min-width: unset;
-        width: 100%;
-        flex-direction: column-reverse;
-        padding: 15px 15px 15px 15px;
-    }
+}
 
-    header .search-input {
-        width: 100%;
-        font-size: 12px;
-    }
-
-    header .search-btn {
-        width: 100%;
-    }
-
-    header .close-search {
-        display: none;
+/* =====  Header Section Ended  ====== */
+/* =====  Hero Section Start  ====== */
+@media screen and (max-width: 1199px) {
+    .Hero {
+        height: 70svh;
     }
 
 }
 
-/* =====  Header Section Ended  ====== */
+@media screen and (max-width: 991px) {
+    .Hero {
+        height: 100%;
+    }
+
+    .Hero .row {
+        row-gap: 20px;
+    }
+
+    .Hero .box {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .Hero .mt-lg-3 {
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .Hero {
+        padding: 50px 0;
+    }
+
+    .Hero .animated-text {
+        height: 26px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Hero h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+}
+
+/* =====  Hero Section Ended  ====== */
+/* =====  Tag Section Start  ====== */
+@media screen and (max-width: 767px) {
+    .tage-section .tage img {
+        width: 80px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .tage-section .tage img {
+        width: 50px;
+    }
+
+}
+
+/* =====  Tag Section Ended  ====== */
+/* =====  Demo Section Start  ====== */
+@media screen and (max-width:991px) {
+    .Demo_Parent .Boxes {
+        width: 80px;
+        height: 80px;
+    }
+
+    .Demo_Parent .Box1 {
+        top: 35%;
+        right: 10%;
+    }
+
+    .Demo_Parent .Box3 {
+        top: 25%;
+        right: 40%;
+    }
+
+    .Demo_Parent .Box4 {
+        top: 60%;
+        right: 20%;
+    }
+
+    .Demo_Parent .Box5 {
+        top: 35%;
+        right: unset;
+        left: 20%;
+    }
+
+    .Demo_Parent .Box6 {
+        top: 80%;
+        right: 40%;
+    }
+
+    .Demo_Parent .Box7 {
+        top: 10%;
+        left: 30%;
+    }
+
+    .Demo_Parent .Box8 {
+        left: 10%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .Demo_Parent {
+        padding-top: 50px;
+    }
+
+    .Demo {
+        padding: 120px 0px;
+    }
+
+    /* Outer cube */
+    .Demo .scene {
+        width: 120px;
+        height: 120px;
+    }
+
+    .Demo .face {
+        width: 120px;
+        height: 120px;
+    }
+
+    /* Outer cube positions */
+    .Demo .front {
+        transform: rotateY(0deg) translateZ(60px);
+    }
+
+    .Demo .back {
+        transform: rotateY(180deg) translateZ(60px);
+    }
+
+    .Demo .right {
+        transform: rotateY(90deg) translateZ(60px);
+    }
+
+    .Demo .left {
+        transform: rotateY(-90deg) translateZ(60px);
+    }
+
+    .Demo .top {
+        transform: rotateX(90deg) translateZ(60px);
+    }
+
+    .Demo .bottom {
+        transform: rotateX(-90deg) translateZ(60px);
+    }
+
+    /* Hover expanded effect */
+    .Demo .scene:hover .front {
+        transform: rotateY(0deg) translateZ(120px);
+    }
+
+    .Demo .scene:hover .back {
+        transform: rotateY(180deg) translateZ(120px);
+    }
+
+    .Demo .scene:hover .right {
+        transform: rotateY(90deg) translateZ(120px);
+    }
+
+    .Demo .scene:hover .left {
+        transform: rotateY(-90deg) translateZ(120px);
+    }
+
+    .Demo .scene:hover .top {
+        transform: rotateX(90deg) translateZ(120px);
+    }
+
+    .Demo .scene:hover .bottom {
+        transform: rotateX(-90deg) translateZ(120px);
+    }
+
+    /* Inner cube */
+    .Demo .inner-cube {
+        width: 70px;
+        height: 70px;
+    }
+
+    .Demo .inner-face {
+        width: 70px;
+        height: 70px;
+    }
+
+    /* Inner cube positions */
+    .Demo .inner-front {
+        transform: rotateY(0deg) translateZ(35px);
+    }
+
+    .Demo .inner-back {
+        transform: rotateY(180deg) translateZ(35px);
+    }
+
+    .Demo .inner-right {
+        transform: rotateY(90deg) translateZ(35px);
+    }
+
+    .Demo .inner-left {
+        transform: rotateY(-90deg) translateZ(35px);
+    }
+
+    .Demo .inner-top {
+        transform: rotateX(90deg) translateZ(35px);
+    }
+
+    .Demo .inner-bottom {
+        transform: rotateX(-90deg) translateZ(35px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Demo_Parent .Boxes {
+        width: 50px;
+        height: 50px;
+    }
+
+    .Demo_Parent .Box1 {
+        top: 80%;
+        right: 10%;
+    }
+
+    .Demo_Parent .Box3 {
+        top: 80%;
+        right: 70%;
+    }
+
+    .Demo_Parent .Box2 {
+        top: 40%;
+        right: 20%;
+    }
+
+    .Demo_Parent .Box7 {
+        top: 50%;
+        left: 40%;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    /* Outer cube */
+    .Demo .scene {
+        width: 90px;
+        height: 90px;
+    }
+
+    .Demo .face {
+        width: 90px;
+        height: 90px;
+    }
+
+    /* Outer cube positions */
+    .Demo .front {
+        transform: rotateY(0deg) translateZ(45px);
+    }
+
+    .Demo .back {
+        transform: rotateY(180deg) translateZ(45px);
+    }
+
+    .Demo .right {
+        transform: rotateY(90deg) translateZ(45px);
+    }
+
+    .Demo .left {
+        transform: rotateY(-90deg) translateZ(45px);
+    }
+
+    .Demo .top {
+        transform: rotateX(90deg) translateZ(45px);
+    }
+
+    .Demo .bottom {
+        transform: rotateX(-90deg) translateZ(45px);
+    }
+
+    /* Hover expanded effect */
+    .Demo .scene:hover .front {
+        transform: rotateY(0deg) translateZ(90px);
+    }
+
+    .Demo .scene:hover .back {
+        transform: rotateY(180deg) translateZ(90px);
+    }
+
+    .Demo .scene:hover .right {
+        transform: rotateY(90deg) translateZ(90px);
+    }
+
+    .Demo .scene:hover .left {
+        transform: rotateY(-90deg) translateZ(90px);
+    }
+
+    .Demo .scene:hover .top {
+        transform: rotateX(90deg) translateZ(90px);
+    }
+
+    .Demo .scene:hover .bottom {
+        transform: rotateX(-90deg) translateZ(90px);
+    }
+
+    /* Inner cube */
+    .Demo .inner-cube {
+        width: 40px;
+        height: 40px;
+    }
+
+    .Demo .inner-face {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* Inner cube positions */
+    .Demo .inner-front {
+        transform: rotateY(0deg) translateZ(20px);
+    }
+
+    .Demo .inner-back {
+        transform: rotateY(180deg) translateZ(20px);
+    }
+
+    .Demo .inner-right {
+        transform: rotateY(90deg) translateZ(20px);
+    }
+
+    .Demo .inner-left {
+        transform: rotateY(-90deg) translateZ(20px);
+    }
+
+    .Demo .inner-top {
+        transform: rotateX(90deg) translateZ(20px);
+    }
+
+    .Demo .inner-bottom {
+        transform: rotateX(-90deg) translateZ(20px);
+    }
+}
+
+/* =====  Demo Section Ended  ====== */
+/* =====  Overview Section Start  ====== */
+@media screen and (max-width: 1199px) {
+    .Intro p {
+        padding-right: 20px;
+    }
+
+    .Intro figure {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .Intro p {
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .Intro .row {
+        row-gap: 50px;
+    }
+
+    .Intro p {
+        text-align: center;
+    }
+}
+
+/* =====  Overview Section Ended  ====== */
+/* =====  Skills Section Start  ====== */
+@media screen and (max-width: 767px) {
+    .Skills .row {
+        row-gap: 25px;
+    }
+}
+
+/* =====  Skills Section Ended  ====== */
+/* =====  AdditionalSkills Section Start  ====== */
+@media screen and (max-width: 1199px) {
+    .AdditionalSkills .skill-icon {
+        max-width: 60px;
+        max-height: 50px;
+    }
+
+    .AdditionalSkills .boxes {
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .AdditionalSkills .content {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .AdditionalSkills {
+        padding: 50px 0px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .AdditionalSkills .skill-icon {
+        max-width: 50px;
+        max-height: 40px;
+    }
+
+    .AdditionalSkills .boxes {
+        height: 140px;
+    }
+}
+
+/* =====  AdditionalSkills Section Ended  ====== */
+/* =====  Experience Section Start  ====== */
+@media screen and (max-width: 991px) {
+    .Exp {
+        padding: 70px 0px;
+    }
+
+    .Exp h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .Exp span {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .Exp .Boxes {
+        width: 60px;
+        height: 60px;
+    }
+
+    .Exp .Box1,
+    .Exp .Box6 {
+        right: 2%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .Exp .row {
+        row-gap: 50px;
+    }
+
+    .Exp {
+        padding: 50px 0px;
+    }
+
+    .Exp h2 {
+        padding-bottom: 0px;
+    }
+
+    .Exp .Box1 {
+        top: 100%;
+        right: 4%;
+    }
+
+    .Exp .Box2 {
+        top: 100%;
+        right: 24%;
+    }
+
+    .Exp .Box3 {
+        top: 100%;
+        right: 44%;
+    }
+
+    .Exp .Box7 {
+        left: 5%;
+    }
+
+    .Exp .Box8 {
+        left: 24%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .Exp .Boxes {
+        width: 40px;
+        height: 40px;
+    }
+
+    .Exp .Box7 {
+        top: 60%;
+    }
+
+    .Exp .Box1 {
+        top: 80%;
+        right: unset;
+        left: 5%;
+    }
+
+}
+
+/* =====  Experience Section Ended  ====== */
+/* =====  Projects Section Start  ====== */
+@media screen and (max-width: 1199px) {
+    .Projects h3 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .Projects a i,
+    .Projects a {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .Projects h3 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .Projects span {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .Projects .proj {
+        padding: 10px;
+    }
+
+    .Projects a i,
+    .Projects a {
+        font-size: 12px;
+    }
+
+    .Projects .text-center {
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+    .Projects .row {
+        row-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Projects h3 {
+        padding-right: 0px;
+    }
+
+}
+
+/* =====  Projects Section Ended  ====== */
+/* =====  Education Section Start  ====== */
+@media screen and (max-width: 767px) {
+    .Education {
+        padding: 50px 0px;
+    }
+
+    .Education .row {
+        row-gap: 30px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .Education .sub {
+        padding: 10px;
+    }
+
+    .Education .sub i {
+        font-size: 16px;
+    }
+
+    .Education p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+}
+
+/* =====  Education Section Ended  ====== */
+/* =====  Contact Section Start  ====== */
+@media screen and (max-width: 1199px) {
+    .Contact h2 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .Contact h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .Contact .contact_text {
+        padding: 20px;
+    }
+
+    .Contact form textarea,
+    .Contact form input,
+    .Contact label {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .Contact {
+        padding: 50px 0px 0px;
+    }
+
+    .Contact .row {
+        row-gap: 30px;
+        flex-direction: column-reverse;
+    }
+
+    .Contact h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .Contact form textarea,
+    .Contact form input,
+    .Contact label {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .Contact form button {
+        width: 100%;
+    }
+
+}
+
+/* =====  Contact Section Ended  ====== */
+/* =====  Footer Section Start  ====== */
+@media screen and (max-width: 991px) {
+    footer .Quick a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    footer .Socials .Social a {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    footer {
+        padding-top: 50px;
+    }
+
+    footer h3 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    footer .Main_Con {
+        align-items: center;
+        text-align: center;
+    }
+
+    footer .Quick {
+        border: none;
+    }
+
+    footer .row {
+        row-gap: 40px;
+    }
+
+    footer .Quick a {
+        font-size: 14px;
+    }
+
+    footer .Socials .Social a {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    footer p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+}
+
+/* =====  Footer Section Ended  ====== */

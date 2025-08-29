@@ -60,11 +60,10 @@ const AnimatedHero = () => {
     return (
         <section className="Hero overflow-hidden">
             <div className="floating-boxes"></div>
-
             <Container className="d-flex justify-content-center align-items-center">
                 <Row className="w-100 justify-content-center">
-                    <Col md={8} lg={6}>
-                        <div className=" h-100 d-flex flex-column gap-3 justify-content-center">
+                    <Col lg={6}>
+                        <div className=" h-100 d-flex flex-column gap-3 text-lg-start text-center align-items-lg-start align-items-center justify-content-center">
                             <div className="d-flex align-items-center">
                                 <h1 className="animated-text">
                                     Hi
@@ -76,16 +75,16 @@ const AnimatedHero = () => {
                                 Professional Web Developer
                             </h1>
 
-                            <div className="d-flex align-items-center w-100 mt-md-3">
+                            <div className="d-flex align-items-center w-100 mt-lg-3">
                                 <a href="assets/images/Resume/Aleem_Resume.pdf" target="_blank" className="join-btn hover1"
                                     type="button">View My Resume </a>
                             </div>
                         </div>
                     </Col>
-                    <Col md={8} lg={6}>
+                    <Col lg={6}>
                         <div className="d-flex h-100 align-items-center justify-content-center">
                             <figure>
-                                <img width="" height="" src={HeroImage} alt="hero" className="hero-img" fetchPriority="high" decoding="async" />
+                                <img src={HeroImage} alt="hero" className="hero-img" width="" height="" fetchPriority="high" decoding="async" />
                             </figure>
                         </div>
                     </Col>

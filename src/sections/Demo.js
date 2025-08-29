@@ -68,7 +68,7 @@ const Cube = () => {
 
                 <div className="row align-items-center">
                     {/* Left Column */}
-                    <div className="col-md-4">
+                    <div className="col-lg-5">
                         <div className="d-flex flex-column gap-2">
                             <h2>Interactive 3D Experience</h2>
                             <h3>
@@ -86,7 +86,7 @@ const Cube = () => {
                     </div>
 
                     {/* Right Column */}
-                    <div className="col-md-8">
+                    <div className="col-lg-7">
                         <div className="Demo">
                             <div className="scene" id="scene">
                                 <div className="cube" id="cube">

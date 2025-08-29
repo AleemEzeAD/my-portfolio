@@ -20,8 +20,7 @@ function ContactSec() {
                         <figure className="d-flex flex-column justify-content-center align-items-center h-100">
                             <img
                                 src={ContactImg}
-                                alt="contact"
-                                className="contact-img img-fluid" loading="lazy"
+                                alt="contact" loading="lazy"
                             />
                         </figure>
                     </Col>
