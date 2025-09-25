@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.d69b11d0.css",
-    "main.js": "/my-portfolio/static/js/main.aba3252e.js",
+    "main.css": "/my-portfolio/static/css/main.ae7b7ffd.css",
+    "main.js": "/my-portfolio/static/js/main.a6f68ced.js",
     "static/media/Hero1.webp": "/my-portfolio/static/media/Hero1.306495caded56f183229.webp",
     "static/media/Demo5.png": "/my-portfolio/static/media/Demo5.e8fbbf346924b5989bd8.png",
     "static/media/Demo2.png": "/my-portfolio/static/media/Demo2.2a8cc38c03ca260484c2.png",
@@ -12,32 +12,34 @@
     "static/media/contact.webp": "/my-portfolio/static/media/contact.8f9fe86871fec05a24db.webp",
     "static/media/linqbuzz.webp": "/my-portfolio/static/media/linqbuzz.1a075e37b76586e718a2.webp",
     "static/media/overview.webp": "/my-portfolio/static/media/overview.5b30783cd869046d5612.webp",
-    "static/media/caringcrest.webp": "/my-portfolio/static/media/caringcrest.926a8613b9ff2358726d.webp",
+    "static/media/bibyte.webp": "/my-portfolio/static/media/bibyte.6a1ae6185cfc2ff6be4c.webp",
+    "static/media/fresh.webp": "/my-portfolio/static/media/fresh.1661af73ace9374a1f5a.webp",
     "static/media/fa-solid-900.woff2": "/my-portfolio/static/media/fa-solid-900.f54756da1f3d1b88887f.woff2",
     "static/media/cravestay.webp": "/my-portfolio/static/media/cravestay.61daed803c5141f1cac8.webp",
+    "static/media/transpo.webp": "/my-portfolio/static/media/transpo.e4f9a7d33f9f792a87a6.webp",
     "static/media/fa-brands-400.woff2": "/my-portfolio/static/media/fa-brands-400.1f6bad931d92a0a52c45.woff2",
     "static/media/tage.webp": "/my-portfolio/static/media/tage.8d7af5d0ea256e258d8a.webp",
-    "static/media/david.webp": "/my-portfolio/static/media/david.5a35c0196d162da67b6e.webp",
-    "static/media/logo.png": "/my-portfolio/static/media/logo.601feb56ebdf87e2d48e.png",
+    "static/media/ezead.webp": "/my-portfolio/static/media/ezead.cd40e23cb615ccfeb24f.webp",
     "static/media/chirolift.webp": "/my-portfolio/static/media/chirolift.8b4462867137baa2f453.webp",
-    "static/media/stockrypt.webp": "/my-portfolio/static/media/stockrypt.04747c83ab1655c50fb4.webp",
+    "static/media/portfolio.webp": "/my-portfolio/static/media/portfolio.6b5eb42dbfedfbc61c70.webp",
     "static/media/caring.webp": "/my-portfolio/static/media/caring.fbef25e9c514200e2972.webp",
     "static/media/exp.webp": "/my-portfolio/static/media/exp.5fe609357f870ddc77de.webp",
     "static/media/fa-regular-400.woff2": "/my-portfolio/static/media/fa-regular-400.5632c43107f4d3fa4806.woff2",
     "static/media/react.svg": "/my-portfolio/static/media/react.c3a0b34aae466451a91157424eec1ee3.svg",
     "static/media/fa-v4compatibility.woff2": "/my-portfolio/static/media/fa-v4compatibility.24fc9d217708cb3f0362.woff2",
+    "static/media/logo.svg": "/my-portfolio/static/media/logo.07ba0271da6952ecd8de3522aa512a9e.svg",
     "static/media/bootstrap.svg": "/my-portfolio/static/media/bootstrap.3b3ab2cfe7cdf9d8eb417ce32f573b04.svg",
-    "index.html": "/my-portfolio/index.html",
     "static/media/javascript.svg": "/my-portfolio/static/media/javascript.f84ec7103324dc7e616d00ed43ecd531.svg",
+    "index.html": "/my-portfolio/index.html",
     "static/media/css.svg": "/my-portfolio/static/media/css.afb434f6d712d3e4ff53be8da4d9876a.svg",
     "static/media/html.svg": "/my-portfolio/static/media/html.75bdf0b057c088503944680032ea6347.svg",
     "static/media/figma.svg": "/my-portfolio/static/media/figma.cc8e111619371cf586cc11dbd3173da0.svg",
     "static/media/bg_pattern.webp": "/my-portfolio/static/media/bg_pattern.f0d560be489bc43339a1.webp",
-    "main.d69b11d0.css.map": "/my-portfolio/static/css/main.d69b11d0.css.map",
-    "main.aba3252e.js.map": "/my-portfolio/static/js/main.aba3252e.js.map"
+    "main.ae7b7ffd.css.map": "/my-portfolio/static/css/main.ae7b7ffd.css.map",
+    "main.a6f68ced.js.map": "/my-portfolio/static/js/main.a6f68ced.js.map"
   },
   "entrypoints": [
-    "static/css/main.d69b11d0.css",
-    "static/js/main.aba3252e.js"
+    "static/css/main.ae7b7ffd.css",
+    "static/js/main.a6f68ced.js"
   ]
 }
