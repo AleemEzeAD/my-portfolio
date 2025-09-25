@@ -168,11 +168,11 @@
     }
 
     header .sidebar-logo img {
-        width: 120px;
+        width: 150px;
     }
 
     header .DesktopLogo img {
-        width: 120px;
+        width: 150px;
     }
 
     header .sidebar-menu {
@@ -183,10 +183,6 @@
 @media screen and (max-width: 360px) {
     header .sidebar {
         width: 260px;
-    }
-
-    header .DesktopLogo img {
-        width: 120px;
     }
 
     header .menu-toggle {
@@ -205,12 +201,6 @@
 
 /* =====  Header Section Ended  ====== */
 /* =====  Hero Section Start  ====== */
-@media screen and (max-width: 1199px) {
-    .Hero {
-        height: 70svh;
-    }
-
-}
 
 @media screen and (max-width: 991px) {
     .Hero {
@@ -710,8 +700,19 @@
 /* =====  Projects Section Start  ====== */
 @media screen and (max-width: 1199px) {
     .Projects h3 {
-        font-size: 20px;
-        line-height: 24px;
+        font-size: 14px;
+        line-height: 20px;
+        padding-right: 0px;
+    }
+
+    .Projects span {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .Projects a i,
+    .Projects a {
+        font-size: 12px;
     }
 }
 
@@ -726,22 +727,22 @@
 
 @media screen and (max-width: 767px) {
     .Projects h3 {
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 12px;
+        line-height: 16px;
     }
 
     .Projects span {
-        font-size: 12px;
-        line-height: 16px;
+        font-size: 10px;
+        line-height: 14px;
     }
 
     .Projects .proj {
         padding: 10px;
     }
 
-    .Projects a i,
+    .Projects i,
     .Projects a {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .Projects .text-center {

@@ -4,6 +4,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import proj1 from "../assets/images/translated/cravestay.webp";
 import proj2 from "../assets/images/translated/linqbuzz.webp";
 import proj3 from "../assets/images/translated/caring.webp";
+import proj4 from "../assets/images/translated/fresh.webp";
+
 
 function MultiLanguageProjects() {
     return (
@@ -20,7 +22,7 @@ function MultiLanguageProjects() {
                     </p>
                 </div>
                 <Row>
-                    <Col lg={4} md={6}>
+                    <Col xs={6} sm={6} md={6} lg={3}>
                         <div className="proj h-100 d-flex flex-column gap-2">
                             <figure>
                                 <img width="" height="" src={proj1} alt="Cravestay" loading="lazy" />
@@ -44,7 +46,31 @@ function MultiLanguageProjects() {
                         </div>
                     </Col>
 
-                    <Col lg={4} md={6}>
+                    <Col xs={6} sm={6} md={6} lg={3}>
+                        <div className="proj h-100 d-flex flex-column gap-2">
+                            <figure>
+                                <img width="" height="" src={proj4} alt="Cravestay" loading="lazy" />
+                            </figure>
+                            <div className="d-flex align-items-center gap-md-3 gap-2 icons_P">
+                                <i className="fa-regular fa-calendar"></i>
+                                <span className="date">July 8, 2025</span>
+                            </div>
+                            <div className="d-flex flex-column gap-md-3 gap-2 flex-grow-1">
+                                <h3>Farm Fresh Hub – Eat Fresh, Live Fresh</h3>
+                                <div>
+                                    <a
+                                        href="https://aleemezead.github.io/fresh/"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        View Project <i className="fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+
+                    <Col xs={6} sm={6} md={6} lg={3}>
                         <div className="proj h-100 d-flex flex-column gap-2">
                             <figure>
                                 <img width="" height="" src={proj2} alt="LINQBUZZ" loading="lazy" />
@@ -68,7 +94,7 @@ function MultiLanguageProjects() {
                         </div>
                     </Col>
 
-                    <Col lg={4} md={6}>
+                    <Col xs={6} sm={6} md={6} lg={3}>
                         <div className="proj h-100 d-flex flex-column gap-2">
                             <figure>
                                 <img width="" height="" src={proj3} alt="Caring Crest" loading="lazy" />

@@ -35,9 +35,9 @@ export default function Footer() {
                         <div className="Socials">
                             <h3>Connect</h3>
                             <div className="Social">
-                                <a href="#" aria-label="linkedin"><i className="fa-brands fa-linkedin"></i></a>
-                                <a href="#" aria-label="github"><i className="fa-brands fa-github"></i></a>
-                                <a href="#" aria-label="twitter"><i className="fa-brands fa-twitter"></i></a>
+                                <a href="www.linkedin.com/in/aleem-abbas" aria-label="linkedin"><i className="fa-brands fa-linkedin"></i></a>
+                                <a href="https://aleemezead.github.io/my-portfolio/" aria-label="github"><i className="fa-brands fa-github"></i></a>
+                                <a href="https://www.facebook.com/aleem.abbas.110265/?viewas=100000686899395" aria-label="facebook"><i className="fa-brands fa-facebook"></i></a>
                             </div>
                         </div>
                     </div>

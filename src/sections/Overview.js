@@ -15,11 +15,11 @@ const Intro = () => {
                                 I craft seamless user interfaces enhanced with smooth animations and engaging interactions.
                             </p>
                             <p>
-                                I am skilled in Bootstrap for rapid UI development and have hands-on
-                                experience with PHP and Laravel for dynamic and scalable
-                                backend solutions. Additionally, I explore Node.js
-                                to develop full-stack applications, ensuring robust performance and efficiency.
+                                I am skilled in React.js and Bootstrap for building responsive UIs and have hands-on
+                                experience with PHP and Laravel for dynamic, scalable backends. Additionally, I work with
+                                Node.js to develop full-stack applications, ensuring robust performance and efficiency.
                             </p>
+
                             <p>
                                 From clean, ThemeForest-standard code to pixel-perfect designs,
                                 I focus on delivering creative, functional,

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Container } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch, faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
-import Logo from "../assets/images/logo.png";
+import Logo from "../assets/images/logo.svg";
 
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
@@ -32,7 +32,7 @@ function Header() {
 
                     <div className="HeaderBtns d-flex align-items-center gap-2">
                         <a href="#" className="hover1">Login</a>
-                        <a href="#" className="hover2">Login Out</a>
+                        <a href="#" className="hover2">Logout</a>
                     </div>
 
                     {/* Mobile Menu Toggle */}

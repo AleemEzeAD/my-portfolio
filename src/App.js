@@ -8,6 +8,7 @@ import Overview from './sections/Overview';
 import Skills from './sections/Skills';
 import AdditionalSkills from './sections/AdditionalSkills';
 import Experience from './sections/Experience';
+import ReactProj from './sections/ReactPro';
 import Projects from './sections/Projects';
 import MultiProj from './sections/MultiProj';
 import Education from './sections/Education';
@@ -16,7 +17,6 @@ import Footer from './components/Footer';
 import BackToTop from "./components/BackToTop";
 import SplashScreen from "./components/SplashScreen";
 
-import Login from './pages/Login';
 // import Register from './pages/Register';
 
 function App() {
@@ -31,26 +31,28 @@ function App() {
           <Header />
           <Hero />
           <Bottom />
-          <Demo />
+          <Education />
           <Bottom />
-          <Overview />
+          <Experience />
+          <Bottom />
+          <Demo />
           <Bottom />
           <Skills />
           <Bottom />
+          <Overview />
+          <Bottom />
           <AdditionalSkills />
           <Bottom />
-          <Experience />
+          <ReactProj />
           <Bottom />
           <Projects />
           <Bottom />
           <MultiProj />
           <Bottom />
-          <Education />
-          <Bottom />
           <Contact />
           <Bottom />
-           <Footer />
-          <BackToTop /> 
+          <Footer />
+          <BackToTop />
         </>
       )}
     </>

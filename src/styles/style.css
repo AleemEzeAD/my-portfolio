@@ -422,7 +422,7 @@ header {
 }
 
 header .DesktopLogo img {
-    width: 120px;
+    width: 200px;
 }
 
 header .nav {
@@ -557,7 +557,6 @@ header .overlay {
 /* ========= Hero Start ========= */
 .Hero {
     padding: 70px 0;
-    height: 90svh;
     position: relative;
 }
 
@@ -1223,17 +1222,6 @@ header .overlay {
     color: #ffffff;
 }
 
-.Projects figure {
-    width: 100%;
-    border-radius: 20px 20px 0 0;
-    overflow: hidden;
-}
-
-.Projects figure img {
-    width: 100%;
-    transition: all 0.5s ease-in;
-}
-
 .Projects .row {
     row-gap: 25px;
 }
@@ -1244,43 +1232,29 @@ header .overlay {
     padding-bottom: 70px;
 }
 
-.Projects .proj {
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid #7d14fb;
-    border-radius: 20px;
-    padding: 20px;
-    transition: all 0.3s ease-in;
-}
-
-.Projects .proj:hover {
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
-}
-
-.Projects .proj:hover img {
-    transform: scale(1.1);
-}
-
 .Projects h3 {
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 26px;
     color: #ffffff;
     padding-right: 35px;
     flex-grow: 1;
 }
 
 .Projects span {
+    font-size: 14px;
+    line-height: 20px;
     color: #00FFFF;
 }
 
 .Projects i {
     color: #ffffff;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .Projects a i,
 .Projects a {
     color: #ffffff;
-    font-size: 16px;
+    font-size: 14px;
     transition: all 0.3s ease-in;
     display: flex;
     align-items: center;
@@ -1298,6 +1272,34 @@ header .overlay {
 .Projects a:hover i {
     color: #00FFFF;
     transform: translateX(6px);
+}
+
+.Projects .proj {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid #7d14fb;
+    border-radius: 20px;
+    padding: 20px;
+    transition: all 0.3s ease-in;
+}
+
+.Projects .proj:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.Projects .proj figure {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+}
+
+.Projects .proj figure img {
+    width: 100%;
+    display: block;
+    transition: all 0.5s ease-in;
+}
+
+.Projects .proj:hover figure img {
+    transform: scale(1.1) rotate(2deg);
 }
 
 /*========= Projects section End =========*/
