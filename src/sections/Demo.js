@@ -5,7 +5,6 @@ const Cube = () => {
     const expRef = useRef(null);
 
     useEffect(() => {
-        // 🔹 Cube rotation by mouse
         const cube = document.getElementById("cube");
 
         const handleMouseMove = (e) => {
@@ -22,7 +21,6 @@ const Cube = () => {
 
         document.addEventListener("mousemove", handleMouseMove);
 
-        // 🔹 Boxes hover animation with GSAP
         const section = expRef.current;
         const boxes = gsap.utils.toArray(".Boxes");
 
@@ -30,7 +28,7 @@ const Cube = () => {
             rotation: 360,
             duration: 6,
             ease: "linear",
-            repeat: -1, // infinite spin
+            repeat: -1, 
             paused: true,
             transformOrigin: "center center",
         });
@@ -43,7 +41,6 @@ const Cube = () => {
             section.addEventListener("mouseleave", handleLeave);
         }
 
-        // 🔹 Cleanup
         return () => {
             document.removeEventListener("mousemove", handleMouseMove);
             if (section) {

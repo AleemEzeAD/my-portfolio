@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 // 🔹 Import images
 import proj1 from "../assets/images/react/fresh.webp";
 import proj2 from "../assets/images/react/transpo.webp";
-import proj3 from "../assets/images/react/bibyte.webp";
+import proj3 from "../assets/images/react/bitbyte.webp";
 import proj4 from "../assets/images/react/portfolio.webp";
 
 function ReactProjects() {
@@ -32,7 +32,7 @@ function ReactProjects() {
                                 <h3>Aleem FullStack Web Developer Portfolio</h3>
                                 <div>
                                     <a
-                                        href="https://aleemezead.github.io/fresh/"
+                                        href="https://aleemezead.github.io/my-portfolio/"
                                         target="_blank"
                                         rel="noreferrer"
                                     >

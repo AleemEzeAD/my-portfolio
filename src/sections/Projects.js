@@ -10,7 +10,7 @@ function ProjectsSection() {
         <section className="Projects" id="projects">
             <Container>
                 <div className="d-flex flex-column align-items-center justify-content-center text-center gap-2">
-                    <h2>My Projects</h2>
+                    <h2>Bootstrap Projects</h2>
                     <p>
                         I’ve worked on diverse projects, focusing on sleek, user-centric designs and responsive solutions.
                         Each project reflects my creativity, technical skills, and commitment to solving real-world challenges.
