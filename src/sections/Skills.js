@@ -104,7 +104,7 @@ const Skills = () => {
                             <div className="mt-2">
                                 <a
                                     className="hover1"
-                                    href="assets/images/Resume/Aleem_Resume.pdf"
+                                    href={`${process.env.PUBLIC_URL}/Aleem_Resume.pdf`}
                                     target="_blank"
                                     download
                                 >

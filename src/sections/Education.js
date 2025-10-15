@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 function Education() {
     return (
-        <section className="Education" id="education">
+        <section className="Education" id="introduction">
             <Container className="position-relative">
                 <Row>
                     {/* Left Side - Education Details */}

@@ -104,7 +104,7 @@ const AdditionalSkills = () => {
     }, []);
 
     return (
-        <section ref={skillsRef} className="AdditionalSkills">
+        <section ref={skillsRef} className="AdditionalSkills" id="AddSkills">
             <Container>
                 <div className="d-flex flex-column gap-2 align-items-md-start align-items-center justify-content-md-start justify-content-center text-md-start text-center content">
                     <h2>My Professional Services</h2>

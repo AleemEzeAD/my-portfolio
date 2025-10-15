@@ -27,7 +27,7 @@ const Intro = () => {
                             </p>
                             <div className="mt-2">
                                 <a className="hover1"
-                                    href="assets/images/Resume/Aleem_Resume.pdf" target="_blank" download>Download
+                                    href={`${process.env.PUBLIC_URL}/Aleem_Resume.pdf`} target="_blank" download>Download
                                     CV
                                 </a>
                             </div>

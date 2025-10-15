@@ -76,7 +76,7 @@ const AnimatedHero = () => {
                             </h1>
 
                             <div className="d-flex align-items-center w-100 mt-lg-3">
-                                <a href="assets/images/Resume/Aleem_Resume.pdf" target="_blank" className="join-btn hover1"
+                                <a href={`${process.env.PUBLIC_URL}/Aleem_Resume.pdf`} target="_blank" className="join-btn hover1"
                                     type="button">View My Resume </a>
                             </div>
                         </div>

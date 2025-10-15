@@ -22,7 +22,7 @@ export default function Footer() {
                         <div className="Quick">
                             <h3>Quick Links</h3>
                             <ul>
-                                <li><a aria-label="about" href="#about">About</a></li>
+                                <li><a aria-label="Services" href="#AddSkills">Services</a></li>
                                 <li><a aria-label="skills" href="#skills">Skills</a></li>
                                 <li><a aria-label="projects" href="#projects">Projects</a></li>
                                 <li><a aria-label="contact" href="#contact">Contact</a></li>
