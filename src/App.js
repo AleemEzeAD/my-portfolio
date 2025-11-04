@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import Header from './components/Header';
 import Hero from './sections/Hero';
 import Demo from './sections/Demo';

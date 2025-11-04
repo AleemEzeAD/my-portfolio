@@ -104,7 +104,7 @@ function ReactProjects() {
                                 <h3>BitByte Technologies IT Solutions</h3>
                                 <div>
                                     <a
-                                        href="https://aleemezead.github.io/bitbyte/"
+                                        href="https://bitbytetechnologies.com/"
                                         target="_blank"
                                         rel="noreferrer"
                                     >
