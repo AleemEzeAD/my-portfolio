@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.ae7b7ffd.css",
-    "main.js": "/my-portfolio/static/js/main.9a21cd7b.js",
+    "main.js": "/my-portfolio/static/js/main.f1ef07e8.js",
     "static/media/Hero1.webp": "/my-portfolio/static/media/Hero1.306495caded56f183229.webp",
     "static/media/Demo5.png": "/my-portfolio/static/media/Demo5.e8fbbf346924b5989bd8.png",
     "static/media/Demo2.png": "/my-portfolio/static/media/Demo2.2a8cc38c03ca260484c2.png",
@@ -22,7 +22,7 @@
     "static/media/transpo.webp": "/my-portfolio/static/media/transpo.b1d5d0496a98c616e4c4.webp",
     "static/media/fresh.webp": "/my-portfolio/static/media/fresh.fd3bd419047c1438a2a5.webp",
     "static/media/caring.webp": "/my-portfolio/static/media/caring.fbef25e9c514200e2972.webp",
-    "static/media/portfolio.webp": "/my-portfolio/static/media/portfolio.c9e0baee11c86e0629e8.webp",
+    "static/media/fleximart.webp": "/my-portfolio/static/media/fleximart.d83d4d490a36e40611fd.webp",
     "static/media/exp.webp": "/my-portfolio/static/media/exp.5fe609357f870ddc77de.webp",
     "static/media/fa-regular-400.woff2": "/my-portfolio/static/media/fa-regular-400.5632c43107f4d3fa4806.woff2",
     "static/media/react.svg": "/my-portfolio/static/media/react.c3a0b34aae466451a91157424eec1ee3.svg",
@@ -36,10 +36,10 @@
     "static/media/figma.svg": "/my-portfolio/static/media/figma.cc8e111619371cf586cc11dbd3173da0.svg",
     "static/media/bg_pattern.webp": "/my-portfolio/static/media/bg_pattern.f0d560be489bc43339a1.webp",
     "main.ae7b7ffd.css.map": "/my-portfolio/static/css/main.ae7b7ffd.css.map",
-    "main.9a21cd7b.js.map": "/my-portfolio/static/js/main.9a21cd7b.js.map"
+    "main.f1ef07e8.js.map": "/my-portfolio/static/js/main.f1ef07e8.js.map"
   },
   "entrypoints": [
     "static/css/main.ae7b7ffd.css",
-    "static/js/main.9a21cd7b.js"
+    "static/js/main.f1ef07e8.js"
   ]
 }
