@@ -1,6 +1,7 @@
 <script setup>
 import { onMounted, onUnmounted } from 'vue'
 import Home from './views/Home.vue'
+import Loader from './components/layouts/Loader.vue'
 
 let glow
 const moveCursor = (event) => {
@@ -21,6 +22,7 @@ onUnmounted(() => {
 </script>
 
 <template>
+    <Loader />
     <Home />
 </template>
 

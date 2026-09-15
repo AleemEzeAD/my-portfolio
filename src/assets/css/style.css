@@ -513,6 +513,9 @@ body {
     --x: -108px;
     --y: -62px;
   }
+  .hero .resume_btn {
+    margin: 10px auto 0px;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -582,6 +585,11 @@ body {
   .hero .hv__slot--html {
     --x: -100px;
     --y: -57px;
+  }
+  .hero .resume_btn {
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 12px;
   }
 }
 
