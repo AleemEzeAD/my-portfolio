@@ -23,3 +23,8 @@ onUnmounted(() => {
 <template>
     <Home />
 </template>
+
+<!-- git add .
+git commit -m "Update portfolio"
+git push origin main
+npm run deploy -->

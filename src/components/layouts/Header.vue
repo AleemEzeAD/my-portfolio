@@ -125,6 +125,13 @@ onUnmounted(() => {
               >
                 Stacks
               </a>
+              <a
+                href="#projects"
+                class="font-medium tracking-wide text-text no-underline transition duration-300 hover:text-green text-sm md:text-base"
+                @click="scrollToSection($event, '#projects')"
+              >
+                Projects
+              </a>
 
               <a
                 href="#contact"
@@ -245,6 +252,13 @@ onUnmounted(() => {
                   @click="scrollToSection($event, '#stacks')"
                 >
                   Stacks
+                </a>
+                <a
+                  href="#projects"
+                  class="rounded-lg px-4 py-3 font-medium tracking-wide text-text no-underline transition duration-300 hover:bg-darkblue hover:text-green text-sm"
+                  @click="scrollToSection($event, '#projects')"
+                >
+                  Projects
                 </a>
 
                 <a
