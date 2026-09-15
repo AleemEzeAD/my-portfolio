@@ -4,6 +4,8 @@ import { useSwingAnimation } from "../components/composables/SwingAnimation.js";
 
 useSwingAnimation(".hero figure img");
 
+const resumeUrl = `${import.meta.env.BASE_URL}resume/Aleem_Abbas.pdf`;
+
 let rafId = null;
 const cleanupFns = [];
 
@@ -96,12 +98,12 @@ onUnmounted(() => {
                 that connect.
               </h1>
               <a
-                href="/resume/Aleem_Abbas.pdf"
+                :href="resumeUrl"
+                download="Aleem_Abbas.pdf"
                 rel="noopener noreferrer"
                 class="resume_btn"
               >
-                <i class="fa-regular fa-file-lines"></i>
-                View Resume
+                Download Resume <i class="fa-solid fa-download"></i>
               </a>
             </div>
           </div>

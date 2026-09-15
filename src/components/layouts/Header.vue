@@ -3,6 +3,7 @@ import { ref, onMounted, onUnmounted, watch } from "vue";
 
 const isMenuOpen = ref(false);
 const isAvailabilityOpen = ref(false);
+const resumeUrl = `${import.meta.env.BASE_URL}resume/Aleem_Abbas.pdf`;
 
 const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value;
@@ -373,8 +374,9 @@ onUnmounted(() => {
               </div>
             </div>
 
-            <a
-              href="/resume/Aleem_Abbas.pdf"
+           <a
+              :href="resumeUrl"
+              download="Aleem_Abbas.pdf"
               rel="noopener noreferrer"
               class="availability-modal-cta"
             >
